@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>demo11</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+</head>
+<body>
+    <script type="text/javascript" language="javascript">
+    window.onload = function(){
+        if(document.forms.length>0){
+            for(i=0;i<document.forms[0].elements.length; i++){
+                var Input = document.forms[0].elements[i];
+                if(Input.type!="hidden" && Input.value.length>0){
+                    Input.blur();
+                    return;
+                }else if(Input.type!="hidden"){
+                 Input.focus();return
+                }
+        }
+    }
+</script>
+
+<script type="text/javascript" language="javascript">
+   $(function(){
+        if($('form').length>0){
+            var formArr = $('form');
+            var firstFromInp= $(formArr[0]).children('input:not(:hidden)');
+            for(i=0;i<firstFromInp.length;i++){
+                var Input = $(firstFromInp[i]).val();
+                if(Input){
+                    $(firstFromInp[i]).blur();
+                    return;
+                }else{
+                    $(firstFromInp[i]).focus();
+                    return;
+                }
+            }
+        }
+    });
+</script>
+
+
+</body>
+</html>
