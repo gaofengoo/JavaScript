@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html manifest="cache.manifest">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>移动WEB的离线应用</title>
+</head>
+<body>
+	<script type="text/javascript">
+		// IE9及IE9以下不支持
+		if(window.applicationCache){
+			console.log("支持离线应用");
+		}
+	</script>
+</body>
+</html>
