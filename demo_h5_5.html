@@ -4,10 +4,67 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>CSS3</title>
+	<style type="text/css">
+		/* 属性选择器 */
+		/*[class=red]{
+			color: #f00;
+		}
+		[class*=my]{
+			font-weight: bold;
+		}
+		[class^=bule]{
+			color: #0f0;
+		}*/
+		/*[class$=e]{
+			color: #00f;
+		}*/
+
+		/* 伪类选择器 */
+		/*a:link,a:visited,a:hover,a:active*/
+		p:before{
+			content: "前";
+		}
+		p:after{
+			content: "后";
+		}
+		ul li:first-child{
+			color: #f00;
+		}
+		ul li:last-child{
+			color: #0f0;
+		}
+		ul li:nth-child(3){
+			font-weight: bold;
+		}
+		ul li:nth-last-child(2){
+			outline: 1px solid;
+		}
+		ul li:nth-child(odd){
+			font-size: 20px;
+		}
+		ul li:nth-child(even){
+			text-decoration: underline;
+		}
+	</style>
 </head>
 <body>
-	<!-- 属性选择器 -->
 	
+	<!-- <p class="bule1">1</p>
+	<p>2</p>
+	<p class="obule">3</p>
+	<p>4</p>
+	<p class="bule-e">5</p> -->
+
+	<p>111111111111</p>
+	<ul>
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+		<li>6</li>
+		<li>7</li>
+	</ul>
 
 	
 </body>
