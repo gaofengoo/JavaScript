@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>滚动条样式优化</title>
+	<link rel="stylesheet" type="text/css" href="css/scroll_beautify.css">
+</head>
+<body>
+	<!-- 滚动条开始 -->
+	<div class="scroll_main">
+		<div class="scroll_wrap">
+			<div class="scroll_cont">
+				<p></p>
+			</div>
+			<div class="scroll_bar">
+				<div class="scroll_slider"></div>
+			</div>
+		</div> 
+	</div>
+	<!-- 滚动条结束 -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/scroll_beautify.js"></script>
+	<script type="text/javascript">
+		new CusScrollBar({
+		  contentSelector: '.scroll_cont', //滚动内容区
+		  barSelector: '.scroll_bar', //滚动条
+		  sliderSelector: '.scroll_slider' //滚动滑块
+		});
+	</script>
+</body>
+</html>
