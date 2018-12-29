@@ -1,17 +1,17 @@
 ~(function(win){
 	var htmls = '<input type="file" name="" id="" class="imgFiles" style="display: none" accept="image/gif,image/jpeg,image/jpg,image/png,image/svg" multiple>'+
-				'<div class="header">'+
-				'    <span class="imgTitle">'+
+				'<div class="img-header">'+
+				/*'    <span class="imgTitle">'+
 				'        精彩图库'+
 				'        <b>'+
 				'            *'+
 				'        </b>'+
-				'    </span>'+
+				'    </span>'+*/
 				'    <span class="imgClick">'+
 				'    </span>'+
-				'    <span class="imgcontent">'+
+				/*'    <span class="imgcontent">'+
 				'        请上传'+
-				'    </span>'+
+				'    </span>'+*/
 				'</div>'+
 				'<div class="imgAll">'+
 				'    <ul>'+
@@ -41,8 +41,8 @@
 			this.files = this.bom.querySelector('.imgFiles');
 			this.fileClick = this.bom.querySelector('.imgClick');
 			this.fileBtn(this.fileClick,this.files);
-			this.imgcontent = this.bom.querySelector('.imgcontent');
-			this.imgcontent.innerHTML = '请上传<b style="color:red">'+this.MAX+'</b>张'+_self.MW+' * '+_self.MH+'像素的图片';
+			// this.imgcontent = this.bom.querySelector('.imgcontent');
+			// this.imgcontent.innerHTML = '请上传<b style="color:red">'+this.MAX+'</b>张'+_self.MW+' * '+_self.MH+'像素的图片';
 			
 		},
 		fileBtn : function(c,f){
@@ -147,8 +147,8 @@
 		this.dom = document.createElement('li');
 		this.dom.innerHTML = 
 							'    <img src="images/login.gif" alt="" data-src="'+this.imgSrc +'" class="imsg">'+
-							'    <i class="delImg">'+
-							'        X'+
+							'    <i class="delImg" title="删除">'+
+							'        &#10005;'+
 							'    </i>';
 		$(this.dom).attr({'data-delId':_delId,'data-delName':this.imgName});				
 		$(this.b).append(this.dom);

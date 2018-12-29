@@ -16,7 +16,7 @@ img {
 	display: block
 }
 
-.box {
+.box-img-upload {
 	width: 1024px;
 	margin: 50px auto;
 }
@@ -26,22 +26,21 @@ img {
 	padding: 10px;
 }
 
-.imgFileUploade .header {
-	height: 50px;
+.imgFileUploade .img-header {
+	height: 105px;
 	width: 100%;
-	line-height: 50px;
 }
 
-.imgFileUploade .header span {
+.imgFileUploade .img-header span {
 	display: block;
 	float: left;
 }
 
-.imgFileUploade .header span.imgTitle {
+.imgFileUploade .img-header span.imgTitle {
 	line-height: 50px;
 }
 
-.imgFileUploade .header span.imgTitle b {
+.imgFileUploade .img-header span.imgTitle b {
 	color: red;
 	margin: 0 5px;
 	line-height: 57px;
@@ -50,16 +49,15 @@ img {
 	font-size: 20px;
 }
 
-.imgFileUploade .header span.imgClick {
-	width: 50px;
-	height: 50px;
-	margin-left: 10px;
+.imgFileUploade .img-header span.imgClick {
+	width: 150px;
+	height: 105px;
 	cursor: pointer;
-	background: url(../images/addUpload.png) no-repeat center center;
+	background: url(../images/icon_picadd@2x.png) no-repeat center center;
 	background-size: cover;
 }
 
-.imgFileUploade .header span.imgcontent {
+.imgFileUploade .img-header span.imgcontent {
 	color: #999;
 	margin-left: 120px;
 	line-height: 50px;
@@ -80,10 +78,10 @@ img {
 }
 
 .imgFileUploade .imgAll li {
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 105px;
 	border: solid 1px #ccc;
-	margin: 8px 5px;
+	margin: 20px 15px 20px 0;
 	float: left;
 	position: relative;
 	box-shadow: 0 0 10px #eee;
@@ -101,7 +99,7 @@ img {
 .delImg {
 	position: absolute;
 	top: -10px;
-	right: -7px;
+	right: -10px;
 	width: 22px;
 	height: 22px;
 	background: #000;
@@ -115,13 +113,14 @@ img {
 	cursor: pointer;
 }
 
-.box,.box2,.box3,.box4 {
+.box-img-upload,.box2,.box3,.box4 {
 	border: solid 1px #ccc;
 }
 
-.box2{
+/*.box2{
 	width:700px;
 	margin:50px auto;
+	display: none;
 }
 
 .box3{
@@ -132,4 +131,4 @@ img {
 .box4{
 	width: 900px;
 	margin:50px auto;
-}
+}*/
