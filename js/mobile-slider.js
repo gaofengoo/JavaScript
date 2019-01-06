@@ -2,7 +2,7 @@
     $.fn.yxMobileSlider = function(settings){
         var defaultSettings = {
             width: 640, //容器宽度
-            height: 320, //容器高度
+            height: 340, //容器高度
             during: 5000, //间隔时间
             speed:30 //滑动速度
         }
@@ -37,8 +37,8 @@
                 height: '100%'
             });
             //初始化焦点容器及按钮
-            _this.append('<div class="focus"><div></div></div>');
-            var oFocusContainer = $(".focus");
+            _this.append('<div class="focush5"><div></div></div>');
+            var oFocusContainer = $(".focush5");
             for (var i = 0; i < num; i++) {
                 $("div", oFocusContainer).append("<span></span>");
             }
