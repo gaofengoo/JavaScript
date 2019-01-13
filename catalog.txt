@@ -1,0 +1,52 @@
+JavaScript目录
+
+demo1.html				demo1
+demo2.html				demo2
+demo3.html				数组函数
+demo4.html				数组函数
+demo5.html				正则表达示
+demo6.html				面向对象
+demo7.html				setTimeout
+demo8.html				confirm()
+demo9.html				prompt
+demo10.html				demo10
+demo11.html				demo11
+demo12.html				demo12
+demo13.html				demo13
+demo14.html				demo14
+demo15.html				demo15
+demo16.html				think
+demo17.html				json
+demo18.html				正则
+demo19.html				hope
+demo20.html				h5轮播
+demo21.html				js判断传入时间和当前时间大小
+demo22.html				全屏背景图
+demo23.html				返回顶部
+demo24.html				横屏背景图
+demo25.html				全屏背景图
+demo26.html				字母超出换行
+demo27.html				侧边栏
+demo28.html				滚动条样式优化
+demo29.html				多图片上传预览
+demo30.html				PC简单轮播图
+demo31.html				box-sizing
+demo32.html				新增会员
+demo33.html				百度地图定位
+demo34.html				百度地图关键字输入提示词条
+demo35.html				三角形
+demo36.html				push
+
+================================================
+
+demo_h5_1.html			demo_h5_1
+demo_h5_2.html			本地存储
+demo_h5_3.html			移动WEB的离线应用
+demo_h5_4.html			HTML5表单
+demo_h5_5.html 			CSS3选择器
+demo_h5_6.html 			CSS3阴影
+demo_h5_7.html 			CSS3背景
+demo_h5_8.html 			媒体查询和虚拟窗口
+demo_h5_9.html 			CSS3权重
+demo_h5_10.html 		CSS3响应式布局
+demo_h5_11.html 		手机轮播
