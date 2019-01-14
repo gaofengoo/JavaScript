@@ -50,3 +50,4 @@ demo_h5_8.html 			媒体查询和虚拟窗口
 demo_h5_9.html 			CSS3权重
 demo_h5_10.html 		CSS3响应式布局
 demo_h5_11.html 		手机轮播
+demo_h5_12.html 		H5多功能手机轮播
