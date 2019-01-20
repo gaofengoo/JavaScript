@@ -36,6 +36,9 @@ demo33.html				百度地图定位
 demo34.html				百度地图关键字输入提示词条
 demo35.html				三角形
 demo36.html				push
+demo37.html 			判断数组是否为空
+demo38.html 			String处理
+demo39.html 			查找字符串
 
 ================================================
 
