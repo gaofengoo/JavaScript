@@ -39,6 +39,11 @@ demo36.html				push
 demo37.html 			判断数组是否为空
 demo38.html 			String处理
 demo39.html 			查找字符串
+demo40.html 			提取子字符串
+demo41.html 			查看非空字符串字符串
+demo42.html 			typeof
+
+
 
 ================================================
 
