@@ -42,6 +42,8 @@ demo39.html 			查找字符串
 demo40.html 			提取子字符串
 demo41.html 			查看非空字符串字符串
 demo42.html 			typeof
+demo43.html 			分解字符串
+demo44.html 			正则表达式
 
 
 
