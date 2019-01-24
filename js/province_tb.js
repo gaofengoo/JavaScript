@@ -2708,19 +2708,200 @@ var datas = {
                     ]
                 },
                 {
-                    "citysName": "秦皇岛市"
+                    "citysName": "秦皇岛市",
+                    "areas":[
+                        {
+                            "areasname":"海港区"
+                        },{
+                            "areasname":"山海关区"
+                        },{
+                            "areasname":"北戴河区"
+                        },{
+                            "areasname":"青龙满族自治县"
+                        },{
+                            "areasname":"昌黎县"
+                        },{
+                            "areasname":"抚宁区"
+                        },{
+                            "areasname":"卢龙县"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "石家庄市"
+                    "citysName": "石家庄市",
+                    "areas":[
+                        {
+                            "areasname":"长安区"
+                        },{
+                            "areasname":"桥西区"
+                        },{
+                            "areasname":"新华区"
+                        },{
+                            "areasname":"井陉矿区"
+                        },{
+                            "areasname":"裕华区"
+                        },{
+                            "areasname":"井陉县"
+                        },{
+                            "areasname":"正定县"
+                        },{
+                            "areasname":"栾城区"
+                        },{
+                            "areasname":"行唐县"
+                        },{
+                            "areasname":"灵寿县"
+                        },{
+                            "areasname":"高邑县"
+                        },{
+                            "areasname":"深泽县"
+                        },{
+                            "areasname":"赞皇县"
+                        },{
+                            "areasname":"无极县"
+                        },{
+                            "areasname":"平山县"
+                        },{
+                            "areasname":"元氏县"
+                        },{
+                            "areasname":"赵县"
+                        },{
+                            "areasname":"辛集市"
+                        },{
+                            "areasname":"藁城区"
+                        },{
+                            "areasname":"晋州市"
+                        },{
+                            "areasname":"新乐市"
+                        },{
+                            "areasname":"鹿泉区"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "唐山市"
+                    "citysName": "唐山市",
+                    "areas":[
+                        {
+                            "areasname":"路南区"
+                        },{
+                            "areasname":"路北区"
+                        },{
+                            "areasname":"古冶区"
+                        },{
+                            "areasname":"开平区"
+                        },{
+                            "areasname":"丰南区"
+                        },{
+                            "areasname":"丰润区"
+                        },{
+                            "areasname":"滦县"
+                        },{
+                            "areasname":"滦南县"
+                        },{
+                            "areasname":"乐亭县"
+                        },{
+                            "areasname":"迁西县"
+                        },{
+                            "areasname":"玉田县"
+                        },{
+                            "areasname":"曹妃甸区"
+                        },{
+                            "areasname":"遵化市"
+                        },{
+                            "areasname":"迁安市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "邢台市"
+                    "citysName": "邢台市",
+                    "areas":[
+                        {
+                            "areasname":"桥东区"
+                        },{
+                            "areasname":"桥西区"
+                        },{
+                            "areasname":"邢台县"
+                        },{
+                            "areasname":"临城县"
+                        },{
+                            "areasname":"内丘县"
+                        },{
+                            "areasname":"柏乡县"
+                        },{
+                            "areasname":"隆尧县"
+                        },{
+                            "areasname":"任县"
+                        },{
+                            "areasname":"南和县"
+                        },{
+                            "areasname":"宁晋县"
+                        },{
+                            "areasname":"巨鹿县"
+                        },{
+                            "areasname":"新河县"
+                        },{
+                            "areasname":"广宗县"
+                        },{
+                            "areasname":"平乡县"
+                        },{
+                            "areasname":"威县"
+                        },{
+                            "areasname":"清河县"
+                        },{
+                            "areasname":"临西县"
+                        },{
+                            "areasname":"南宫市"
+                        },{
+                            "areasname":"沙河市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "张家口市"
+                    "citysName": "张家口市",
+                    "areas":[
+                        {
+                            "areasname":"桥东区"
+                        },{
+                            "areasname":"桥西区"
+                        },{
+                            "areasname":"宣化区"
+                        },{
+                            "areasname":"下花园区"
+                        },{
+                            "areasname":"张北县"
+                        },{
+                            "areasname":"康保县"
+                        },{
+                            "areasname":"沽源县"
+                        },{
+                            "areasname":"尚义县"
+                        },{
+                            "areasname":"蔚县"
+                        },{
+                            "areasname":"阳原县"
+                        },{
+                            "areasname":"怀安县"
+                        },{
+                            "areasname":"万全区"
+                        },{
+                            "areasname":"怀来县"
+                        },{
+                            "areasname":"涿鹿县"
+                        },{
+                            "areasname":"赤城县"
+                        },{
+                            "areasname":"崇礼区"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 }
             ],
             "provinceName": "河北省"
@@ -2728,58 +2909,457 @@ var datas = {
         {
             "citys": [
                 {
-                    "citysName": "安阳市"
+                    "citysName": "安阳市",
+                    "areas":[
+                        {
+                            "areasname":"文峰区"
+                        },{
+                            "areasname":"北关区"
+                        },{
+                            "areasname":"殷都区"
+                        },{
+                            "areasname":"龙安区"
+                        },{
+                            "areasname":"安阳县"
+                        },{
+                            "areasname":"汤阴县"
+                        },{
+                            "areasname":"滑县"
+                        },{
+                            "areasname":"内黄县"
+                        },{
+                            "areasname":"林州市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "鹤壁市"
+                    "citysName": "鹤壁市",
+                    "areas":[
+                        {
+                            "areasname":"鹤山区"
+                        },{
+                            "areasname":"山城区"
+                        },{
+                            "areasname":"淇滨区"
+                        },{
+                            "areasname":"浚县"
+                        },{
+                            "areasname":"淇县"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
                     "citysName": "济源市"
                 },
                 {
-                    "citysName": "焦作市"
+                    "citysName": "焦作市",
+                    "areas":[
+                        {
+                            "areasname":"解放区"
+                        },{
+                            "areasname":"中站区"
+                        },{
+                            "areasname":"马村区"
+                        },{
+                            "areasname":"山阳区"
+                        },{
+                            "areasname":"修武县"
+                        },{
+                            "areasname":"博爱县"
+                        },{
+                            "areasname":"武陟县"
+                        },{
+                            "areasname":"温县"
+                        },{
+                            "areasname":"沁阳市"
+                        },{
+                            "areasname":"孟州市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "开封市"
+                    "citysName": "开封市",
+                    "areas":[
+                        {
+                            "areasname":"龙亭区"
+                        },{
+                            "areasname":"顺河回族区"
+                        },{
+                            "areasname":"鼓楼区"
+                        },{
+                            "areasname":"禹王台区"
+                        },{
+                            "areasname":"杞县"
+                        },{
+                            "areasname":"通许县"
+                        },{
+                            "areasname":"尉氏县"
+                        },{
+                            "areasname":"祥符区"
+                        },{
+                            "areasname":"兰考县"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "漯河市"
+                    "citysName": "漯河市",
+                    "areas":[
+                        {
+                            "areasname":"源汇区"
+                        },{
+                            "areasname":"郾城区"
+                        },{
+                            "areasname":"召陵区"
+                        },{
+                            "areasname":"舞阳县"
+                        },{
+                            "areasname":"临颍县"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "洛阳市"
+                    "citysName": "洛阳市",
+                    "areas":[
+                        {
+                            "areasname":"老城区"
+                        },{
+                            "areasname":"西工区"
+                        },{
+                            "areasname":"瀍河回族区"
+                        },{
+                            "areasname":"涧西区"
+                        },{
+                            "areasname":"吉利区"
+                        },{
+                            "areasname":"洛龙区"
+                        },{
+                            "areasname":"孟津县"
+                        },{
+                            "areasname":"新安县"
+                        },{
+                            "areasname":"栾川县"
+                        },{
+                            "areasname":"嵩县"
+                        },{
+                            "areasname":"汝阳县"
+                        },{
+                            "areasname":"宜阳县"
+                        },{
+                            "areasname":"洛宁县"
+                        },{
+                            "areasname":"伊川县"
+                        },{
+                            "areasname":"偃师市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "南阳市"
+                    "citysName": "南阳市",
+                    "areas":[
+                        {
+                            "areasname":"宛城区"
+                        },{
+                            "areasname":"卧龙区"
+                        },{
+                            "areasname":"南召县"
+                        },{
+                            "areasname":"方城县"
+                        },{
+                            "areasname":"西峡县"
+                        },{
+                            "areasname":"镇平县"
+                        },{
+                            "areasname":"内乡县"
+                        },{
+                            "areasname":"淅川县"
+                        },{
+                            "areasname":"社旗县"
+                        },{
+                            "areasname":"唐河县"
+                        },{
+                            "areasname":"新野县"
+                        },{
+                            "areasname":"桐柏县"
+                        },{
+                            "areasname":"邓州市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "平顶山市"
+                    "citysName": "平顶山市",
+                    "areas":[
+                        {
+                            "areasname":"新华区"
+                        },{
+                            "areasname":"卫东区"
+                        },{
+                            "areasname":"石龙区"
+                        },{
+                            "areasname":"湛河区"
+                        },{
+                            "areasname":"宝丰县"
+                        },{
+                            "areasname":"叶县"
+                        },{
+                            "areasname":"鲁山县"
+                        },{
+                            "areasname":"郏县"
+                        },{
+                            "areasname":"舞钢市"
+                        },{
+                            "areasname":"汝州市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "濮阳市"
+                    "citysName": "濮阳市",
+                    "areas":[
+                        {
+                            "areasname":"华龙区"
+                        },{
+                            "areasname":"清丰县"
+                        },{
+                            "areasname":"南乐县"
+                        },{
+                            "areasname":"范县"
+                        },{
+                            "areasname":"台前县"
+                        },{
+                            "areasname":"濮阳县"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "三门峡市"
+                    "citysName": "三门峡市",
+                    "areas":[
+                        {
+                            "areasname":"湖滨区"
+                        },{
+                            "areasname":"渑池县"
+                        },{
+                            "areasname":"陕州区"
+                        },{
+                            "areasname":"卢氏县"
+                        },{
+                            "areasname":"义马市"
+                        },{
+                            "areasname":"灵宝市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "商丘市"
+                    "citysName": "商丘市",
+                    "areas":[
+                        {
+                            "areasname":"梁园区"
+                        },{
+                            "areasname":"睢阳区"
+                        },{
+                            "areasname":"民权县"
+                        },{
+                            "areasname":"睢县"
+                        },{
+                            "areasname":"宁陵县"
+                        },{
+                            "areasname":"柘城县"
+                        },{
+                            "areasname":"虞城县"
+                        },{
+                            "areasname":"夏邑县"
+                        },{
+                            "areasname":"永城市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "新乡市"
+                    "citysName": "新乡市",
+                    "areas":[
+                        {
+                            "areasname":"红旗区"
+                        },{
+                            "areasname":"卫滨区"
+                        },{
+                            "areasname":"凤泉区"
+                        },{
+                            "areasname":"牧野区"
+                        },{
+                            "areasname":"新乡县"
+                        },{
+                            "areasname":"获嘉县"
+                        },{
+                            "areasname":"原阳县"
+                        },{
+                            "areasname":"延津县"
+                        },{
+                            "areasname":"封丘县"
+                        },{
+                            "areasname":"长垣县"
+                        },{
+                            "areasname":"卫辉市"
+                        },{
+                            "areasname":"辉县市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "信阳市"
+                    "citysName": "信阳市",
+                    "areas":[
+                        {
+                            "areasname":"浉河区"
+                        },{
+                            "areasname":"平桥区"
+                        },{
+                            "areasname":"罗山县"
+                        },{
+                            "areasname":"光山县"
+                        },{
+                            "areasname":"新县"
+                        },{
+                            "areasname":"商城县"
+                        },{
+                            "areasname":"固始县"
+                        },{
+                            "areasname":"潢川县"
+                        },{
+                            "areasname":"淮滨县"
+                        },{
+                            "areasname":"息县"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "许昌市"
+                    "citysName": "许昌市",
+                    "areas":[
+                        {
+                            "areasname":"魏都区"
+                        },{
+                            "areasname":"建安区"
+                        },{
+                            "areasname":"鄢陵县"
+                        },{
+                            "areasname":"襄城县"
+                        },{
+                            "areasname":"禹州市"
+                        },{
+                            "areasname":"长葛市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "郑州市"
+                    "citysName": "郑州市",
+                    "areas":[
+                        {
+                            "areasname":"中原区"
+                        },{
+                            "areasname":"二七区"
+                        },{
+                            "areasname":"管城回族区"
+                        },{
+                            "areasname":"金水区"
+                        },{
+                            "areasname":"上街区"
+                        },{
+                            "areasname":"惠济区"
+                        },{
+                            "areasname":"中牟县"
+                        },{
+                            "areasname":"巩义市"
+                        },{
+                            "areasname":"荥阳市"
+                        },{
+                            "areasname":"新密市"
+                        },{
+                            "areasname":"新郑市"
+                        },{
+                            "areasname":"登封市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "周口市"
+                    "citysName": "周口市",
+                    "areas":[
+                        {
+                            "areasname":"川汇区"
+                        },{
+                            "areasname":"扶沟县"
+                        },{
+                            "areasname":"西华县"
+                        },{
+                            "areasname":"商水县"
+                        },{
+                            "areasname":"沈丘县"
+                        },{
+                            "areasname":"郸城县"
+                        },{
+                            "areasname":"淮阳县"
+                        },{
+                            "areasname":"太康县"
+                        },{
+                            "areasname":"鹿邑县"
+                        },{
+                            "areasname":"项城市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "驻马店市"
+                    "citysName": "驻马店市",
+                    "areas":[
+                        {
+                            "areasname":"驿城区"
+                        },{
+                            "areasname":"西平县"
+                        },{
+                            "areasname":"上蔡县"
+                        },{
+                            "areasname":"平舆县"
+                        },{
+                            "areasname":"正阳县"
+                        },{
+                            "areasname":"确山县"
+                        },{
+                            "areasname":"泌阳县"
+                        },{
+                            "areasname":"汝南县"
+                        },{
+                            "areasname":"遂平县"
+                        },{
+                            "areasname":"新蔡县"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 }
             ],
             "provinceName": "河南省"
@@ -2787,43 +3367,366 @@ var datas = {
         {
             "citys": [
                 {
-                    "citysName": "大庆市"
+                    "citysName": "大庆市",
+                    "areas":[
+                        {
+                            "areasname":"萨尔图区"
+                        },{
+                            "areasname":"龙凤区"
+                        },{
+                            "areasname":"让胡路区"
+                        },{
+                            "areasname":"红岗区"
+                        },{
+                            "areasname":"大同区"
+                        },{
+                            "areasname":"肇州县"
+                        },{
+                            "areasname":"肇源县"
+                        },{
+                            "areasname":"林甸县"
+                        },{
+                            "areasname":"杜尔伯特蒙古族自治县"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "大兴安岭地区"
+                    "citysName": "大兴安岭地区",
+                    "areas":[
+                        {
+                            "areasname":"呼玛县"
+                        },{
+                            "areasname":"塔河县"
+                        },{
+                            "areasname":"漠河县"
+                        },{
+                            "areasname":"加格达奇区"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "哈尔滨市"
+                    "citysName": "哈尔滨市",
+                    "areas":[
+                        {
+                            "areasname":"道里区"
+                        },{
+                            "areasname":"南岗区"
+                        },{
+                            "areasname":"道外区"
+                        },{
+                            "areasname":"香坊区"
+                        },{
+                            "areasname":"平房区"
+                        },{
+                            "areasname":"松北区"
+                        },{
+                            "areasname":"呼兰区"
+                        },{
+                            "areasname":"依兰县"
+                        },{
+                            "areasname":"方正县"
+                        },{
+                            "areasname":"宾县"
+                        },{
+                            "areasname":"巴彦县"
+                        },{
+                            "areasname":"木兰县"
+                        },{
+                            "areasname":"通河县"
+                        },{
+                            "areasname":"延寿县"
+                        },{
+                            "areasname":"阿城区"
+                        },{
+                            "areasname":"双城区"
+                        },{
+                            "areasname":"尚志市"
+                        },{
+                            "areasname":"五常市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "鹤岗市"
+                    "citysName": "鹤岗市",
+                    "areas":[
+                        {
+                            "areasname":"向阳区"
+                        },{
+                            "areasname":"工农区"
+                        },{
+                            "areasname":"南山区"
+                        },{
+                            "areasname":"兴安区"
+                        },{
+                            "areasname":"东山区"
+                        },{
+                            "areasname":"兴山区"
+                        },{
+                            "areasname":"萝北县"
+                        },{
+                            "areasname":"绥滨县"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "黑河市"
+                    "citysName": "黑河市",
+                    "areas":[
+                        {
+                            "areasname":"爱辉区"
+                        },{
+                            "areasname":"嫩江县"
+                        },{
+                            "areasname":"逊克县"
+                        },{
+                            "areasname":"孙吴县"
+                        },{
+                            "areasname":"北安市"
+                        },{
+                            "areasname":"五大连池市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "鸡西市"
+                    "citysName": "鸡西市",
+                    "areas":[
+                        {
+                            "areasname":"鸡冠区"
+                        },{
+                            "areasname":"恒山区"
+                        },{
+                            "areasname":"滴道区"
+                        },{
+                            "areasname":"梨树区"
+                        },{
+                            "areasname":"城子河区"
+                        },{
+                            "areasname":"麻山区"
+                        },{
+                            "areasname":"鸡东县"
+                        },{
+                            "areasname":"虎林市"
+                        },{
+                            "areasname":"密山市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "佳木斯市"
+                    "citysName": "佳木斯市",
+                    "areas":[
+                        {
+                            "areasname":"向阳区"
+                        },{
+                            "areasname":"前进区"
+                        },{
+                            "areasname":"东风区"
+                        },{
+                            "areasname":"郊区"
+                        },{
+                            "areasname":"桦南县"
+                        },{
+                            "areasname":"桦川县"
+                        },{
+                            "areasname":"汤原县"
+                        },{
+                            "areasname":"抚远市"
+                        },{
+                            "areasname":"同江市"
+                        },{
+                            "areasname":"富锦市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "牡丹江市"
+                    "citysName": "牡丹江市",
+                    "areas":[
+                        {
+                            "areasname":"东安区"
+                        },{
+                            "areasname":"阳明区"
+                        },{
+                            "areasname":"爱民区"
+                        },{
+                            "areasname":"西安区"
+                        },{
+                            "areasname":"东宁市"
+                        },{
+                            "areasname":"林口县"
+                        },{
+                            "areasname":"绥芬河市"
+                        },{
+                            "areasname":"海林市"
+                        },{
+                            "areasname":"宁安市"
+                        },{
+                            "areasname":"穆棱市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "齐齐哈尔市"
+                    "citysName": "齐齐哈尔市",
+                    "areas":[
+                        {
+                            "areasname":"龙沙区"
+                        },{
+                            "areasname":"建华区"
+                        },{
+                            "areasname":"铁锋区"
+                        },{
+                            "areasname":"昂昂溪区"
+                        },{
+                            "areasname":"富拉尔基区"
+                        },{
+                            "areasname":"碾子山区"
+                        },{
+                            "areasname":"梅里斯达斡尔族区"
+                        },{
+                            "areasname":"龙江县"
+                        },{
+                            "areasname":"依安县"
+                        },{
+                            "areasname":"泰来县"
+                        },{
+                            "areasname":"甘南县"
+                        },{
+                            "areasname":"富裕县"
+                        },{
+                            "areasname":"克山县"
+                        },{
+                            "areasname":"克东县"
+                        },{
+                            "areasname":"拜泉县"
+                        },{
+                            "areasname":"讷河市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "七台河市"
+                    "citysName": "七台河市",
+                    "areas":[
+                        {
+                            "areasname":"新兴区"
+                        },{
+                            "areasname":"桃山区"
+                        },{
+                            "areasname":"茄子河区"
+                        },{
+                            "areasname":"勃利县"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "双鸭山市"
+                    "citysName": "双鸭山市",
+                    "areas":[
+                        {
+                            "areasname":"尖山区"
+                        },{
+                            "areasname":"岭东区"
+                        },{
+                            "areasname":"四方台区"
+                        },{
+                            "areasname":"宝山区"
+                        },{
+                            "areasname":"集贤县"
+                        },{
+                            "areasname":"友谊县"
+                        },{
+                            "areasname":"宝清县"
+                        },{
+                            "areasname":"饶河县"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "绥化市"
+                    "citysName": "绥化市",
+                    "areas":[
+                        {
+                            "areasname":"北林区"
+                        },{
+                            "areasname":"望奎县"
+                        },{
+                            "areasname":"兰西县"
+                        },{
+                            "areasname":"青冈县"
+                        },{
+                            "areasname":"庆安县"
+                        },{
+                            "areasname":"明水县"
+                        },{
+                            "areasname":"绥棱县"
+                        },{
+                            "areasname":"安达市"
+                        },{
+                            "areasname":"肇东市"
+                        },{
+                            "areasname":"海伦市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "伊春市"
+                    "citysName": "伊春市",
+                    "areas":[
+                        {
+                            "areasname":"伊春区"
+                        },{
+                            "areasname":"南岔区"
+                        },{
+                            "areasname":"友好区"
+                        },{
+                            "areasname":"西林区"
+                        },{
+                            "areasname":"翠峦区"
+                        },{
+                            "areasname":"新青区"
+                        },{
+                            "areasname":"美溪区"
+                        },{
+                            "areasname":"金山屯区"
+                        },{
+                            "areasname":"五营区"
+                        },{
+                            "areasname":"乌马河区"
+                        },{
+                            "areasname":"汤旺河区"
+                        },{
+                            "areasname":"带岭区"
+                        },{
+                            "areasname":"乌伊岭区"
+                        },{
+                            "areasname":"红星区"
+                        },{
+                            "areasname":"上甘岭区"
+                        },{
+                            "areasname":"嘉荫县"
+                        },{
+                            "areasname":"铁力市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 }
             ],
             "provinceName": "黑龙江省"
@@ -2831,22 +3734,132 @@ var datas = {
         {
             "citys": [
                 {
-                    "citysName": "鄂州市"
+                    "citysName": "鄂州市",
+                    "areas":[
+                        {
+                            "areasname":"梁子湖区"
+                        },{
+                            "areasname":"华容区"
+                        },{
+                            "areasname":"鄂城区"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "恩施土家族苗族自治州"
+                    "citysName": "恩施土家族苗族自治州",
+                    "areas":[
+                        {
+                            "areasname":"恩施市"
+                        },{
+                            "areasname":"利川市"
+                        },{
+                            "areasname":"建始县"
+                        },{
+                            "areasname":"巴东县"
+                        },{
+                            "areasname":"宣恩县"
+                        },{
+                            "areasname":"咸丰县"
+                        },{
+                            "areasname":"来凤县"
+                        },{
+                            "areasname":"鹤峰县"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "黄冈市"
+                    "citysName": "黄冈市",
+                    "areas":[
+                        {
+                            "areasname":"黄州区"
+                        },{
+                            "areasname":"团风县"
+                        },{
+                            "areasname":"红安县"
+                        },{
+                            "areasname":"罗田县"
+                        },{
+                            "areasname":"英山县"
+                        },{
+                            "areasname":"浠水县"
+                        },{
+                            "areasname":"蕲春县"
+                        },{
+                            "areasname":"黄梅县"
+                        },{
+                            "areasname":"麻城市"
+                        },{
+                            "areasname":"武穴市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "黄石市"
+                    "citysName": "黄石市",
+                    "areas":[
+                        {
+                            "areasname":"黄石港区"
+                        },{
+                            "areasname":"西塞山区"
+                        },{
+                            "areasname":"下陆区"
+                        },{
+                            "areasname":"铁山区"
+                        },{
+                            "areasname":"阳新县"
+                        },{
+                            "areasname":"大冶市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "荆门市"
+                    "citysName": "荆门市",
+                    "areas":[
+                        {
+                            "areasname":"东宝区"
+                        },{
+                            "areasname":"掇刀区"
+                        },{
+                            "areasname":"京山县"
+                        },{
+                            "areasname":"沙洋县"
+                        },{
+                            "areasname":"钟祥市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "荆州市"
+                    "citysName": "荆州市",
+                    "areas":[
+                        {
+                            "areasname":"沙市区"
+                        },{
+                            "areasname":"荆州区"
+                        },{
+                            "areasname":"公安县"
+                        },{
+                            "areasname":"监利县"
+                        },{
+                            "areasname":"江陵县"
+                        },{
+                            "areasname":"石首市"
+                        },{
+                            "areasname":"洪湖市"
+                        },{
+                            "areasname":"松滋市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
                     "citysName": "潜江市"
@@ -2855,31 +3868,184 @@ var datas = {
                     "citysName": "神农架林区"
                 },
                 {
-                    "citysName": "十堰市"
+                    "citysName": "十堰市",
+                    "areas":[
+                        {
+                            "areasname":"茅箭区"
+                        },{
+                            "areasname":"张湾区"
+                        },{
+                            "areasname":"郧阳区"
+                        },{
+                            "areasname":"郧西县"
+                        },{
+                            "areasname":"竹山县"
+                        },{
+                            "areasname":"竹溪县"
+                        },{
+                            "areasname":"房县"
+                        },{
+                            "areasname":"丹江口市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "随州市"
+                    "citysName": "随州市",
+                    "areas":[
+                        {
+                            "areasname":"曾都区"
+                        },{
+                            "areasname":"随县"
+                        },{
+                            "areasname":"广水市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
                     "citysName": "天门市"
                 },
                 {
-                    "citysName": "武汉市"
+                    "citysName": "武汉市",
+                    "areas":[
+                        {
+                            "areasname":"江岸区"
+                        },{
+                            "areasname":"江汉区"
+                        },{
+                            "areasname":"硚口区"
+                        },{
+                            "areasname":"汉阳区"
+                        },{
+                            "areasname":"武昌区"
+                        },{
+                            "areasname":"青山区"
+                        },{
+                            "areasname":"洪山区"
+                        },{
+                            "areasname":"东西湖区"
+                        },{
+                            "areasname":"汉南区"
+                        },{
+                            "areasname":"蔡甸区"
+                        },{
+                            "areasname":"江夏区"
+                        },{
+                            "areasname":"黄陂区"
+                        },{
+                            "areasname":"新洲区"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "咸宁市"
+                    "citysName": "咸宁市",
+                    "areas":[
+                        {
+                            "areasname":"咸安区"
+                        },{
+                            "areasname":"嘉鱼县"
+                        },{
+                            "areasname":"通城县"
+                        },{
+                            "areasname":"崇阳县"
+                        },{
+                            "areasname":"通山县"
+                        },{
+                            "areasname":"赤壁市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
                     "citysName": "仙桃市"
                 },
                 {
-                    "citysName": "襄阳市"
+                    "citysName": "襄阳市",
+                    "areas":[
+                        {
+                            "areasname":"襄城区"
+                        },{
+                            "areasname":"樊城区"
+                        },{
+                            "areasname":"襄州区"
+                        },{
+                            "areasname":"南漳县"
+                        },{
+                            "areasname":"谷城县"
+                        },{
+                            "areasname":"保康县"
+                        },{
+                            "areasname":"老河口市"
+                        },{
+                            "areasname":"枣阳市"
+                        },{
+                            "areasname":"宜城市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "孝感市"
+                    "citysName": "孝感市",
+                    "areas":[
+                        {
+                            "areasname":"孝南区"
+                        },{
+                            "areasname":"孝昌县"
+                        },{
+                            "areasname":"大悟县"
+                        },{
+                            "areasname":"云梦县"
+                        },{
+                            "areasname":"应城市"
+                        },{
+                            "areasname":"安陆市"
+                        },{
+                            "areasname":"汉川市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "宜昌市"
+                    "citysName": "宜昌市",
+                    "areas":[
+                        {
+                            "areasname":"西陵区"
+                        },{
+                            "areasname":"伍家岗区"
+                        },{
+                            "areasname":"点军区"
+                        },{
+                            "areasname":"猇亭区"
+                        },{
+                            "areasname":"夷陵区"
+                        },{
+                            "areasname":"远安县"
+                        },{
+                            "areasname":"兴山县"
+                        },{
+                            "areasname":"秭归县"
+                        },{
+                            "areasname":"长阳土家族自治县"
+                        },{
+                            "areasname":"五峰土家族自治县"
+                        },{
+                            "areasname":"宜都市"
+                        },{
+                            "areasname":"当阳市"
+                        },{
+                            "areasname":"枝江市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 }
             ],
             "provinceName": "湖北省"
@@ -2887,46 +4053,360 @@ var datas = {
         {
             "citys": [
                 {
-                    "citysName": "常德市"
+                    "citysName": "常德市",
+                    "areas":[
+                        {
+                            "areasname":"武陵区"
+                        },{
+                            "areasname":"鼎城区"
+                        },{
+                            "areasname":"安乡县"
+                        },{
+                            "areasname":"汉寿县"
+                        },{
+                            "areasname":"澧县"
+                        },{
+                            "areasname":"临澧县"
+                        },{
+                            "areasname":"桃源县"
+                        },{
+                            "areasname":"石门县"
+                        },{
+                            "areasname":"津市市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "长沙市"
+                    "citysName": "长沙市",
+                    "areas":[
+                        {
+                            "areasname":"芙蓉区"
+                        },{
+                            "areasname":"天心区"
+                        },{
+                            "areasname":"岳麓区"
+                        },{
+                            "areasname":"开福区"
+                        },{
+                            "areasname":"雨花区"
+                        },{
+                            "areasname":"长沙县"
+                        },{
+                            "areasname":"望城区"
+                        },{
+                            "areasname":"宁乡市"
+                        },{
+                            "areasname":"浏阳市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "郴州市"
+                    "citysName": "郴州市",
+                    "areas":[
+                        {
+                            "areasname":"北湖区"
+                        },{
+                            "areasname":"苏仙区"
+                        },{
+                            "areasname":"桂阳县"
+                        },{
+                            "areasname":"宜章县"
+                        },{
+                            "areasname":"永兴县"
+                        },{
+                            "areasname":"嘉禾县"
+                        },{
+                            "areasname":"临武县"
+                        },{
+                            "areasname":"汝城县"
+                        },{
+                            "areasname":"桂东县"
+                        },{
+                            "areasname":"安仁县"
+                        },{
+                            "areasname":"资兴市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "衡阳市"
+                    "citysName": "衡阳市",
+                    "areas":[
+                        {
+                            "areasname":"珠晖区"
+                        },{
+                            "areasname":"雁峰区"
+                        },{
+                            "areasname":"石鼓区"
+                        },{
+                            "areasname":"蒸湘区"
+                        },{
+                            "areasname":"南岳区"
+                        },{
+                            "areasname":"衡阳县"
+                        },{
+                            "areasname":"衡南县"
+                        },{
+                            "areasname":"衡山县"
+                        },{
+                            "areasname":"衡东县"
+                        },{
+                            "areasname":"祁东县"
+                        },{
+                            "areasname":"耒阳市"
+                        },{
+                            "areasname":"常宁市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "怀化市"
+                    "citysName": "怀化市",
+                    "areas":[
+                        {
+                            "areasname":"鹤城区"
+                        },{
+                            "areasname":"中方县"
+                        },{
+                            "areasname":"沅陵县"
+                        },{
+                            "areasname":"辰溪县"
+                        },{
+                            "areasname":"溆浦县"
+                        },{
+                            "areasname":"会同县"
+                        },{
+                            "areasname":"麻阳苗族自治县"
+                        },{
+                            "areasname":"新晃侗族自治县"
+                        },{
+                            "areasname":"芷江侗族自治县"
+                        },{
+                            "areasname":"靖州苗族侗族自治县"
+                        },{
+                            "areasname":"通道侗族自治县"
+                        },{
+                            "areasname":"洪江市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "娄底市"
+                    "citysName": "娄底市",
+                    "areas":[
+                        {
+                            "areasname":"娄星区"
+                        },{
+                            "areasname":"双峰县"
+                        },{
+                            "areasname":"新化县"
+                        },{
+                            "areasname":"冷水江市"
+                        },{
+                            "areasname":"涟源市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "邵阳市"
+                    "citysName": "邵阳市",
+                    "areas":[
+                        {
+                            "areasname":"双清区"
+                        },{
+                            "areasname":"大祥区"
+                        },{
+                            "areasname":"北塔区"
+                        },{
+                            "areasname":"邵东县"
+                        },{
+                            "areasname":"新邵县"
+                        },{
+                            "areasname":"邵阳县"
+                        },{
+                            "areasname":"隆回县"
+                        },{
+                            "areasname":"洞口县"
+                        },{
+                            "areasname":"绥宁县"
+                        },{
+                            "areasname":"新宁县"
+                        },{
+                            "areasname":"城步苗族自治县"
+                        },{
+                            "areasname":"武冈市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "湘潭市"
+                    "citysName": "湘潭市",
+                    "areas":[
+                        {
+                            "areasname":"雨湖区"
+                        },{
+                            "areasname":"岳塘区"
+                        },{
+                            "areasname":"湘潭县"
+                        },{
+                            "areasname":"湘乡市"
+                        },{
+                            "areasname":"韶山市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "湘西土家族苗族自治州"
+                    "citysName": "湘西土家族苗族自治州",
+                    "areas":[
+                        {
+                            "areasname":"吉首市"
+                        },{
+                            "areasname":"泸溪县"
+                        },{
+                            "areasname":"凤凰县"
+                        },{
+                            "areasname":"花垣县"
+                        },{
+                            "areasname":"保靖县"
+                        },{
+                            "areasname":"古丈县"
+                        },{
+                            "areasname":"永顺县"
+                        },{
+                            "areasname":"龙山县"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "益阳市"
+                    "citysName": "益阳市",
+                    "areas":[
+                        {
+                            "areasname":"资阳区"
+                        },{
+                            "areasname":"赫山区"
+                        },{
+                            "areasname":"南县"
+                        },{
+                            "areasname":"桃江县"
+                        },{
+                            "areasname":"安化县"
+                        },{
+                            "areasname":"沅江市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "永州市"
+                    "citysName": "永州市",
+                    "areas":[
+                        {
+                            "areasname":"零陵区"
+                        },{
+                            "areasname":"冷水滩区"
+                        },{
+                            "areasname":"祁阳县"
+                        },{
+                            "areasname":"东安县"
+                        },{
+                            "areasname":"双牌县"
+                        },{
+                            "areasname":"道县"
+                        },{
+                            "areasname":"江永县"
+                        },{
+                            "areasname":"宁远县"
+                        },{
+                            "areasname":"蓝山县"
+                        },{
+                            "areasname":"新田县"
+                        },{
+                            "areasname":"江华瑶族自治县"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "岳阳市"
+                    "citysName": "岳阳市",
+                    "areas":[
+                        {
+                            "areasname":"岳阳楼区"
+                        },{
+                            "areasname":"云溪区"
+                        },{
+                            "areasname":"君山区"
+                        },{
+                            "areasname":"岳阳县"
+                        },{
+                            "areasname":"华容县"
+                        },{
+                            "areasname":"湘阴县"
+                        },{
+                            "areasname":"平江县"
+                        },{
+                            "areasname":"汨罗市"
+                        },{
+                            "areasname":"临湘市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "张家界市"
+                    "citysName": "张家界市",
+                    "areas":[
+                        {
+                            "areasname":"永定区"
+                        },{
+                            "areasname":"武陵源区"
+                        },{
+                            "areasname":"慈利县"
+                        },{
+                            "areasname":"桑植县"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "株洲市"
+                    "citysName": "株洲市",
+                    "areas":[
+                        {
+                            "areasname":"荷塘区"
+                        },{
+                            "areasname":"芦淞区"
+                        },{
+                            "areasname":"石峰区"
+                        },{
+                            "areasname":"天元区"
+                        },{
+                            "areasname":"株洲县"
+                        },{
+                            "areasname":"攸县"
+                        },{
+                            "areasname":"茶陵县"
+                        },{
+                            "areasname":"炎陵县"
+                        },{
+                            "areasname":"醴陵市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 }
             ],
             "provinceName": "湖南省"
@@ -2934,31 +4414,196 @@ var datas = {
         {
             "citys": [
                 {
-                    "citysName": "白城市"
+                    "citysName": "白城市",
+                    "areas":[
+                        {
+                            "areasname":"洮北区"
+                        },{
+                            "areasname":"镇赉县"
+                        },{
+                            "areasname":"通榆县"
+                        },{
+                            "areasname":"洮南市"
+                        },{
+                            "areasname":"大安市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "白山市"
+                    "citysName": "白山市",
+                    "areas":[
+                        {
+                            "areasname":"浑江区"
+                        },{
+                            "areasname":"抚松县"
+                        },{
+                            "areasname":"靖宇县"
+                        },{
+                            "areasname":"长白朝鲜族自治县"
+                        },{
+                            "areasname":"江源区"
+                        },{
+                            "areasname":"临江市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "长春市"
+                    "citysName": "长春市",
+                    "areas":[
+                        {
+                            "areasname":"南关区"
+                        },{
+                            "areasname":"宽城区"
+                        },{
+                            "areasname":"朝阳区"
+                        },{
+                            "areasname":"二道区"
+                        },{
+                            "areasname":"绿园区"
+                        },{
+                            "areasname":"双阳区"
+                        },{
+                            "areasname":"农安县"
+                        },{
+                            "areasname":"九台区"
+                        },{
+                            "areasname":"榆树市"
+                        },{
+                            "areasname":"德惠市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "吉林市"
+                    "citysName": "吉林市",
+                    "areas":[
+                        {
+                            "areasname":"昌邑区"
+                        },{
+                            "areasname":"龙潭区"
+                        },{
+                            "areasname":"船营区"
+                        },{
+                            "areasname":"丰满区"
+                        },{
+                            "areasname":"永吉县"
+                        },{
+                            "areasname":"蛟河市"
+                        },{
+                            "areasname":"桦甸市"
+                        },{
+                            "areasname":"舒兰市"
+                        },{
+                            "areasname":"磐石市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "辽源市"
+                    "citysName": "辽源市",
+                    "areas":[
+                        {
+                            "areasname":"龙山区"
+                        },{
+                            "areasname":"西安区"
+                        },{
+                            "areasname":"东丰县"
+                        },{
+                            "areasname":"东辽县"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "四平市"
+                    "citysName": "四平市",
+                    "areas":[
+                        {
+                            "areasname":"铁西区"
+                        },{
+                            "areasname":"铁东区"
+                        },{
+                            "areasname":"铁东区"
+                        },{
+                            "areasname":"伊通满族自治县"
+                        },{
+                            "areasname":"公主岭市"
+                        },{
+                            "areasname":"双辽市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "松原市"
+                    "citysName": "松原市",
+                    "areas":[
+                        {
+                            "areasname":"宁江区"
+                        },{
+                            "areasname":"前郭尔罗斯蒙古族自治县"
+                        },{
+                            "areasname":"长岭县"
+                        },{
+                            "areasname":"乾安县"
+                        },{
+                            "areasname":"扶余市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "通化市"
+                    "citysName": "通化市",
+                    "areas":[
+                        {
+                            "areasname":"东昌区"
+                        },{
+                            "areasname":"二道江区"
+                        },{
+                            "areasname":"通化县"
+                        },{
+                            "areasname":"辉南县"
+                        },{
+                            "areasname":"柳河县"
+                        },{
+                            "areasname":"梅河口市"
+                        },{
+                            "areasname":"集安市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "延边朝鲜族自治州"
+                    "citysName": "延边朝鲜族自治州",
+                    "areas":[
+                        {
+                            "areasname":"延吉市"
+                        },{
+                            "areasname":"图们市"
+                        },{
+                            "areasname":"敦化市"
+                        },{
+                            "areasname":"珲春市"
+                        },{
+                            "areasname":"龙井市"
+                        },{
+                            "areasname":"和龙市"
+                        },{
+                            "areasname":"汪清县"
+                        },{
+                            "areasname":"安图县"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 }
             ],
             "provinceName": "吉林省"
@@ -2966,43 +4611,292 @@ var datas = {
         {
             "citys": [
                 {
-                    "citysName": "常州市"
+                    "citysName": "常州市",
+                    "areas":[
+                        {
+                            "areasname":"天宁区"
+                        },{
+                            "areasname":"钟楼区"
+                        },{
+                            "areasname":"新北区"
+                        },{
+                            "areasname":"武进区"
+                        },{
+                            "areasname":"溧阳市"
+                        },{
+                            "areasname":"金坛区"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "淮安市"
+                    "citysName": "淮安市",
+                    "areas":[
+                        {
+                            "areasname":"清江浦区"
+                        },{
+                            "areasname":"淮安区"
+                        },{
+                            "areasname":"淮阴区"
+                        },{
+                            "areasname":"涟水县"
+                        },{
+                            "areasname":"洪泽区"
+                        },{
+                            "areasname":"盱眙县"
+                        },{
+                            "areasname":"金湖县"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "连云港市"
+                    "citysName": "连云港市",
+                    "areas":[
+                        {
+                            "areasname":"连云区"
+                        },{
+                            "areasname":"海州区"
+                        },{
+                            "areasname":"赣榆区"
+                        },{
+                            "areasname":"东海县"
+                        },{
+                            "areasname":"灌云县"
+                        },{
+                            "areasname":"灌南县"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "南京市"
+                    "citysName": "南京市",
+                    "areas":[
+                        {
+                            "areasname":"玄武区"
+                        },{
+                            "areasname":"秦淮区"
+                        },{
+                            "areasname":"建邺区"
+                        },{
+                            "areasname":"鼓楼区"
+                        },{
+                            "areasname":"浦口区"
+                        },{
+                            "areasname":"栖霞区"
+                        },{
+                            "areasname":"雨花台区"
+                        },{
+                            "areasname":"江宁区"
+                        },{
+                            "areasname":"六合区"
+                        },{
+                            "areasname":"溧水区"
+                        },{
+                            "areasname":"高淳区"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "南通市"
+                    "citysName": "南通市",
+                    "areas":[
+                        {
+                            "areasname":"崇川区"
+                        },{
+                            "areasname":"港闸区"
+                        },{
+                            "areasname":"通州区"
+                        },{
+                            "areasname":"海安县"
+                        },{
+                            "areasname":"如东县"
+                        },{
+                            "areasname":"启东市"
+                        },{
+                            "areasname":"如皋市"
+                        },{
+                            "areasname":"海门市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "宿迁市"
+                    "citysName": "宿迁市",
+                    "areas":[
+                        {
+                            "areasname":"宿城区"
+                        },{
+                            "areasname":"宿豫区"
+                        },{
+                            "areasname":"沭阳县"
+                        },{
+                            "areasname":"泗阳县"
+                        },{
+                            "areasname":"泗洪县"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "苏州市"
+                    "citysName": "苏州市",
+                    "areas":[
+                        {
+                            "areasname":"宿城区"
+                        },{
+                            "areasname":"宿豫区"
+                        },{
+                            "areasname":"沭阳县"
+                        },{
+                            "areasname":"泗阳县"
+                        },{
+                            "areasname":"泗洪县"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "泰州市"
+                    "citysName": "泰州市",
+                    "areas":[
+                        {
+                            "areasname":"海陵区"
+                        },{
+                            "areasname":"高港区"
+                        },{
+                            "areasname":"兴化市"
+                        },{
+                            "areasname":"靖江市"
+                        },{
+                            "areasname":"泰兴市"
+                        },{
+                            "areasname":"姜堰区"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "无锡市"
+                    "citysName": "无锡市",
+                    "areas":[
+                        {
+                            "areasname":"锡山区"
+                        },{
+                            "areasname":"惠山区"
+                        },{
+                            "areasname":"滨湖区"
+                        },{
+                            "areasname":"梁溪区"
+                        },{
+                            "areasname":"新吴区"
+                        },{
+                            "areasname":"江阴市"
+                        },{
+                            "areasname":"宜兴市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "徐州市"
+                    "citysName": "徐州市",
+                    "areas":[
+                        {
+                            "areasname":"鼓楼区"
+                        },{
+                            "areasname":"云龙区"
+                        },{
+                            "areasname":"贾汪区"
+                        },{
+                            "areasname":"泉山区"
+                        },{
+                            "areasname":"丰县"
+                        },{
+                            "areasname":"沛县"
+                        },{
+                            "areasname":"铜山区"
+                        },{
+                            "areasname":"睢宁县"
+                        },{
+                            "areasname":"新沂市"
+                        },{
+                            "areasname":"邳州市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "盐城市"
+                    "citysName": "盐城市",
+                    "areas":[
+                        {
+                            "areasname":"亭湖区"
+                        },{
+                            "areasname":"盐都区"
+                        },{
+                            "areasname":"响水县"
+                        },{
+                            "areasname":"滨海县"
+                        },{
+                            "areasname":"阜宁县"
+                        },{
+                            "areasname":"射阳县"
+                        },{
+                            "areasname":"建湖县"
+                        },{
+                            "areasname":"东台市"
+                        },{
+                            "areasname":"大丰区"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "扬州市"
+                    "citysName": "扬州市",
+                    "areas":[
+                        {
+                            "areasname":"广陵区"
+                        },{
+                            "areasname":"邗江区"
+                        },{
+                            "areasname":"宝应县"
+                        },{
+                            "areasname":"仪征市"
+                        },{
+                            "areasname":"高邮市"
+                        },{
+                            "areasname":"江都区"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "镇江市"
+                    "citysName": "镇江市",
+                    "areas":[
+                        {
+                            "areasname":"京口区"
+                        },{
+                            "areasname":"润州区"
+                        },{
+                            "areasname":"丹徒区"
+                        },{
+                            "areasname":"丹阳市"
+                        },{
+                            "areasname":"扬中市"
+                        },{
+                            "areasname":"句容市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 }
             ],
             "provinceName": "江苏省"
@@ -3010,37 +4904,292 @@ var datas = {
         {
             "citys": [
                 {
-                    "citysName": "抚州市"
+                    "citysName": "抚州市",
+                    "areas":[
+                        {
+                            "areasname":"临川区"
+                        },{
+                            "areasname":"南城县"
+                        },{
+                            "areasname":"黎川县"
+                        },{
+                            "areasname":"南丰县"
+                        },{
+                            "areasname":"崇仁县"
+                        },{
+                            "areasname":"乐安县"
+                        },{
+                            "areasname":"宜黄县"
+                        },{
+                            "areasname":"金溪县"
+                        },{
+                            "areasname":"资溪县"
+                        },{
+                            "areasname":"东乡区"
+                        },{
+                            "areasname":"广昌县"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "赣州市"
+                    "citysName": "赣州市",
+                    "areas":[
+                        {
+                            "areasname":"章贡区"
+                        },{
+                            "areasname":"赣县区"
+                        },{
+                            "areasname":"信丰县"
+                        },{
+                            "areasname":"大余县"
+                        },{
+                            "areasname":"上犹县"
+                        },{
+                            "areasname":"崇义县"
+                        },{
+                            "areasname":"安远县"
+                        },{
+                            "areasname":"龙南县"
+                        },{
+                            "areasname":"定南县"
+                        },{
+                            "areasname":"全南县"
+                        },{
+                            "areasname":"宁都县"
+                        },{
+                            "areasname":"于都县"
+                        },{
+                            "areasname":"兴国县"
+                        },{
+                            "areasname":"会昌县"
+                        },{
+                            "areasname":"寻乌县"
+                        },{
+                            "areasname":"石城县"
+                        },{
+                            "areasname":"瑞金市"
+                        },{
+                            "areasname":"南康区"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "吉安市"
+                    "citysName": "吉安市",
+                    "areas":[
+                        {
+                            "areasname":"吉州区"
+                        },{
+                            "areasname":"青原区"
+                        },{
+                            "areasname":"吉安县"
+                        },{
+                            "areasname":"吉水县"
+                        },{
+                            "areasname":"峡江县"
+                        },{
+                            "areasname":"新干县"
+                        },{
+                            "areasname":"永丰县"
+                        },{
+                            "areasname":"泰和县"
+                        },{
+                            "areasname":"遂川县"
+                        },{
+                            "areasname":"万安县"
+                        },{
+                            "areasname":"安福县"
+                        },{
+                            "areasname":"永新县"
+                        },{
+                            "areasname":"井冈山市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "景德镇市"
+                    "citysName": "景德镇市",
+                    "areas":[
+                        {
+                            "areasname":"昌江区"
+                        },{
+                            "areasname":"珠山区"
+                        },{
+                            "areasname":"浮梁县"
+                        },{
+                            "areasname":"乐平市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "九江市"
+                    "citysName": "九江市",
+                    "areas":[
+                        {
+                            "areasname":"濂溪区"
+                        },{
+                            "areasname":"浔阳区"
+                        },{
+                            "areasname":"柴桑区"
+                        },{
+                            "areasname":"武宁县"
+                        },{
+                            "areasname":"修水县"
+                        },{
+                            "areasname":"永修县"
+                        },{
+                            "areasname":"德安县"
+                        },{
+                            "areasname":"庐山市"
+                        },{
+                            "areasname":"都昌县"
+                        },{
+                            "areasname":"湖口县"
+                        },{
+                            "areasname":"彭泽县"
+                        },{
+                            "areasname":"瑞昌市"
+                        },{
+                            "areasname":"其它区"
+                        },{
+                            "areasname":"共青城市"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "南昌市"
+                    "citysName": "南昌市",
+                    "areas":[
+                        {
+                            "areasname":"东湖区"
+                        },{
+                            "areasname":"西湖区"
+                        },{
+                            "areasname":"青云谱区"
+                        },{
+                            "areasname":"湾里区"
+                        },{
+                            "areasname":"青山湖区"
+                        },{
+                            "areasname":"南昌县"
+                        },{
+                            "areasname":"新建区"
+                        },{
+                            "areasname":"安义县"
+                        },{
+                            "areasname":"进贤县"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "萍乡市"
+                    "citysName": "萍乡市",
+                    "areas":[
+                        {
+                            "areasname":"安源区"
+                        },{
+                            "areasname":"湘东区"
+                        },{
+                            "areasname":"莲花县"
+                        },{
+                            "areasname":"上栗县"
+                        },{
+                            "areasname":"芦溪县"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "上饶市"
+                    "citysName": "上饶市",
+                    "areas":[
+                        {
+                            "areasname":"信州区"
+                        },{
+                            "areasname":"上饶县"
+                        },{
+                            "areasname":"广丰区"
+                        },{
+                            "areasname":"玉山县"
+                        },{
+                            "areasname":"铅山县"
+                        },{
+                            "areasname":"横峰县"
+                        },{
+                            "areasname":"弋阳县"
+                        },{
+                            "areasname":"余干县"
+                        },{
+                            "areasname":"鄱阳县"
+                        },{
+                            "areasname":"万年县"
+                        },{
+                            "areasname":"婺源县"
+                        },{
+                            "areasname":"德兴市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "新余市"
+                    "citysName": "新余市",
+                    "areas":[
+                        {
+                            "areasname":"渝水区"
+                        },{
+                            "areasname":"分宜县"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "宜春市"
+                    "citysName": "宜春市",
+                    "areas":[
+                        {
+                            "areasname":"袁州区"
+                        },{
+                            "areasname":"奉新县"
+                        },{
+                            "areasname":"万载县"
+                        },{
+                            "areasname":"上高县"
+                        },{
+                            "areasname":"宜丰县"
+                        },{
+                            "areasname":"靖安县"
+                        },{
+                            "areasname":"铜鼓县"
+                        },{
+                            "areasname":"丰城市"
+                        },{
+                            "areasname":"樟树市"
+                        },{
+                            "areasname":"高安市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 },
                 {
-                    "citysName": "鹰潭市"
+                    "citysName": "鹰潭市",
+                    "areas":[
+                        {
+                            "areasname":"月湖区"
+                        },{
+                            "areasname":"余江区"
+                        },{
+                            "areasname":"贵溪市"
+                        },{
+                            "areasname":"其它区"
+                        }
+                    ]
                 }
             ],
             "provinceName": "江西省"
