@@ -1,3 +1,5 @@
+// null和undefined的值都为undefined；typeof校验数据类型：null数据类型为对象，undefined数据类型为undefined；
+
 var string1 = 3;
 var string2 = "3";
 var string3 = true;
@@ -12,3 +14,4 @@ console.log("string4--->" + typeof string4);
 console.log("string5--->" + typeof string5);
 console.log("string6--->" + typeof string6);
 console.log("string7--->" + typeof string7);
+

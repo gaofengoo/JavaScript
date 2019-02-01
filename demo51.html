@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>验证输入表单不为空</title>
+	<script type="text/javascript">
+		window.onload = function(){
+			var oInp = document.getElementById("inputContent");
+			var btn = document.getElementById("btn");
+
+			function isNull(val){
+				var str = val.replace(/(^\s*)|(\s*$)/g, '');//去除空格;
+				if(str == "" || str == undefined || str == null){
+					alert("空");
+				}else{
+					alert("非空");
+				}
+			}
+
+			btn.onclick = function(){
+				isNull(oInp.value);
+			}
+
+		}
+	</script>
+</head>
+<body>
+		<input type="text" id="inputContent" />
+		<span id="btn">验证</span>
+</body>
+</html>

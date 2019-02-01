@@ -49,6 +49,8 @@ demo46.html 			定义一个function
 demo47.html 			多重边框
 demo48.html 			"++"和"--"
 demo49.html 			箭头
+demo50.html 			上下左右居中
+demo51.html 			验证输入表单不为空
 
 
 ================================================
