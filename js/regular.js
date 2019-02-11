@@ -6,3 +6,4 @@
 var regExp = /regular expression/;
 
 var re1 = /name\s+gaofeng/;
+
