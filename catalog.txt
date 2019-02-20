@@ -73,3 +73,4 @@ demo_h5_12.html 		手机轮播
 demo_h5_13.html 		H5多功能手机轮播
 demo_h5_14.html 		简单H5手机轮播
 demo_h5_15.html 		导航滚动侦测
+demo_h5_16.html 		导航选项横向滚动
