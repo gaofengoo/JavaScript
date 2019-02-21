@@ -54,6 +54,7 @@ demo51.html 			验证输入表单不为空
 demo52.html 			数字排序
 demo53.html 			rgb颜色定时显示
 demo54.html 			indexOf
+demo55.html 			倒计时五秒
 
 
 ================================================
