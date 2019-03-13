@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>封装函数</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function consoleName1() {
+			console.log("name1");
+		}
+
+		var consoleName2 = function(){
+			console.log("name2");
+		};
+		consoleName1();
+		consoleName2();
+
+		function helloName(selfName){
+			return("Hello" + selfName);
+		}
+
+		function addNum(){
+			var sum = 0;
+			for(var i=0;i<arguments.length;i++){
+				var num = parseFloat(arguments[i]);
+				if(!isNaN(num)){
+					sum += num;
+				}
+			}
+			return sum;
+		}
+
+		window.onload = function(){
+			var name = prompt("What's you name?","");
+			var myName = helloName(name);
+			console.log(myName);
+
+			var sum = addNum(2,3,"哈哈","apple",56.33);
+			console.log(sum);
+		}
+	</script>
+</body>
+</html>
