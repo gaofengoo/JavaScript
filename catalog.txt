@@ -57,6 +57,7 @@ demo54.html 			indexOf
 demo55.html 			倒计时五秒
 demo56.html 			for in
 demo57.html 			封装函数
+demo58.html				SAAS控件调用说明
 
 
 ================================================
