@@ -59,7 +59,8 @@ demo56.html 			for in
 demo57.html 			封装函数
 demo58.html				SAAS控件调用说明
 demo59.html 			获取当前时间戳
-demo60.html 			背景图片
+demo60.html 			背景图片 
+demo61.html 			数组匹配更新操作
 
 
 ================================================

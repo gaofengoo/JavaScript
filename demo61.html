@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>数组匹配更新操作</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<link href="" rel="stylesheet">
+</head>
+<body>
+	<script type="text/javascript">
+		var A1 = [{
+			_id:"1111111111"	
+		},{
+			_id:"2222222222"	
+		},{
+			_id:"3333333333"	
+		}];
+		var A2 = [];
+		var A3 = [];
+		var index = 0;
+		//删除
+		function destory (id){
+			// console.log(A3,id.length);
+			//找到id对应的A3对象
+			for (var i = 0; i < A3.length; i++) {
+				//如果相同，说明找到
+				if(A3[i]._id == id){
+					//判断是否是新数据
+					//如果是，新数据
+					if(id.length != 10){
+						A3[i].splice(i,1);
+					}else{
+						A3[i].status = "delete"
+					}
+					break;
+				}
+			}
+		};
+
+		//新增
+		function create (){
+			index ++;
+			A3.push({
+				_id:index.toString(),
+				status:"create"
+			});
+		}
+
+		//更新
+		function update (id){
+			var result;
+			// console.log(A3,id.length);
+			//找到id对应的A3对象
+			for (var i = 0; i < A3.length; i++) {
+				//如果相同，说明找到
+				if(A3[i]._id == id){
+					//判断是否是新数据
+					//如果是，新数据
+					if(id.length != 10){
+						A3[i].status = "create"
+					}else{
+						A3[i].status = "update"
+					}
+					result = A3[i]
+					break;
+				}
+			}
+			//判断是否是老数据第一次操作
+			if(!result){
+				A3.push({
+					_id:id,
+					status:"update"
+				});
+			}
+			// return result;
+		}
+
+		function init (){
+			var arr = [{
+				_id:"1111111111",
+				status:"update"
+			},{
+				_id:"2222222222",
+				status:"update"	
+			},{
+				_id:"3333333333",
+				status:"update"
+			},{
+				status:"create"
+			},{
+				_id:"1111111111",
+				status:"delete"
+			},{
+				_id:"2222222222",
+				status:"delete"
+			},{
+				_id:"3333333333",
+				status:"delete"
+			},{
+				status:"create"
+			},{
+				_id:"1",
+				status:"update"
+			}]
+
+			for (var i = 0; i < arr.length; i++) {
+				switch(arr[i].status){
+					case "create":
+						create();
+						break;
+					case "update":
+						update(arr[i]._id);
+						break;
+					case "delete":
+						console.log(arr[i],i);
+						destory(arr[i]._id);
+						break;
+				}
+			}
+
+			console.log(A3);
+		}
+
+		init();
+	</script>
+</body>
+</html>
+
