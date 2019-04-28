@@ -61,7 +61,13 @@ demo58.html				SAAS控件调用说明
 demo59.html 			获取当前时间戳
 demo60.html 			背景图片 
 demo61.html 			数组匹配更新操作
-
+demo62.html 			数组赋值
+demo63.html 			i++
+demo64.html 			给对象添加新属性和值
+demo65.html 			for检测
+demo66.html 			数组分析
+demo67.html 			保留两位小数
+demo68.html 			if else
 
 ================================================
 

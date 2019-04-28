@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>if else</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var reg2 = /^[+]{0,1}(\d+)$|^[+]{0,1}(\d+\.\d+)$/;//正数
+
+		function init(num) {
+			if(num == undefined || num == ""){
+				console.log("数据不能为空");
+				return false;
+			}
+			if(!reg2.test(num)){
+				console.log("数据格式不正确");
+				return false;
+			}
+		}
+
+		init("");
+	</script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>保留两位小数</title>
+</head>
+<body>
+	<script type="text/javascript">
+		// 四舍五入
+		function judgeFour(num) {
+			if (!isNaN(num)) {
+				num = num.toFixed(2);
+				return num;
+			}else{
+				console.log("数据格式不正确！");
+				return false;
+			}
+		}
+		console.log(judgeFour("5.//ll"));
+
+		// 不四舍五入,注意：如果是负数，请先转换为正数再计算，最后转回负数
+		function judgeNoFour(num) {
+			if (!isNaN(num)) {
+				if (num >= 0) {
+					num = Math.floor(num * 100) / 100;
+				}else{
+					num = Math.abs(num);
+					num = -(Math.floor(num * 100) / 100);
+				}
+				return num;
+			}else{
+				console.log("数据格式不正确！");
+				return false;
+			}
+		}
+		console.log(judgeNoFour("9.8978"));
+
+		//四舍五入保留2位小数（若第二位小数为0，则保留一位小数）
+		function keepTwoDecimal(num) {
+			var result = parseFloat(num);
+			if (isNaN(result)) {
+				alert('传递参数错误，请检查！');
+				return false;
+			}
+			result = Math.round(num * 100) / 100;
+			return result;
+		}
+
+		//四舍五入保留2位小数（不够位数，则用0替补）
+		function keepTwoDecimalFull(num) {
+			var result = parseFloat(num);
+			if (isNaN(result)) {
+				alert('传递参数错误，请检查！');
+				return false;
+			}
+			result = Math.round(num * 100) / 100;
+			var s_x = result.toString();
+			var pos_decimal = s_x.indexOf('.');
+			if (pos_decimal < 0) {
+				pos_decimal = s_x.length;
+				s_x += '.';
+			}
+			while (s_x.length <= pos_decimal + 2) {
+				s_x += '0';
+			}
+			return s_x;
+		}
+	</script>
+</body>
+</html>
