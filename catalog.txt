@@ -68,6 +68,7 @@ demo65.html 			for检测
 demo66.html 			数组分析
 demo67.html 			保留两位小数
 demo68.html 			if else
+demo69.html
 
 ================================================
 
