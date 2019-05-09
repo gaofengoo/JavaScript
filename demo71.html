@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>查找数组里的值</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var arr1 = [
+			{
+				name:"a",
+				state:false
+			},{
+				name:"b",
+				state:true
+			},{
+				name:"c",
+				state:false
+			},{
+				name:"d",
+				state:true
+			},{
+				name:"e",
+				state:true
+			}
+		];
+
+		function check() {
+			/*for (var i = 0; i < arr1.length; i++) {
+				if (arr1[i].state == true) {
+					console.log(true);
+				}
+			}*/
+			arr1.forEach(function (value) {
+				if (value.state == true) {
+					console.log(true);
+				}
+			});
+		}
+
+		check();
+	</script>
+</body>
+</html>

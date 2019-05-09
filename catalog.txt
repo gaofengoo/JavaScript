@@ -70,6 +70,7 @@ demo67.html 			保留两位小数
 demo68.html 			if else
 demo69.html             switch case
 demo70.html             for push
+demo71.html             查找数组里的值
 
 ================================================
 
