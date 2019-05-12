@@ -71,6 +71,8 @@ demo68.html 			if else
 demo69.html             switch case
 demo70.html             for push
 demo71.html             查找数组里的值
+demo72.html             使用匿名函数包装全局变量
+demo73.html             ||
 
 ================================================
 
