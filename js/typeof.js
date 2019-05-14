@@ -15,3 +15,10 @@ console.log("string5--->" + typeof string5);
 console.log("string6--->" + typeof string6);
 console.log("string7--->" + typeof string7);
 
+if (typeof string1 == "number") {
+	console.log(1);
+}
+if (typeof string2 == "string") {
+	console.log(2);
+}
+
