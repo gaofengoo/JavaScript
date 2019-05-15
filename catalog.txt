@@ -73,6 +73,9 @@ demo70.html             for push
 demo71.html             查找数组里的值
 demo72.html             使用匿名函数包装全局变量
 demo73.html             ||
+demo74.html             浏览器对象
+demo75.html             浏览器窗口
+
 
 ================================================
 
