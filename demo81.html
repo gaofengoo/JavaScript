@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>js实现tab栏目切换</title>
+	<style>
+		span{
+			display: inline-block;
+			width: 50px;
+			text-align: center;
+			cursor: pointer;
+		}
+		.selected{
+			color: red;
+		}
+		p{
+			display: none;
+		}
+		.show{
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<div id="tab">
+		<span class="selected">1</span>
+		<span>2</span>
+		<span>3</span>
+	</div>
+	<div id="content">
+		<p class="show">a</p>
+		<p>b</p>
+		<p>c</p>
+	</div>
+
+	<script type="text/javascript">
+		var arr1 = document.getElementById("tab").getElementsByTagName("span");
+		var arr2 = document.getElementById("content").getElementsByTagName("p");
+		/*arr1[0].onclick = function () {
+			arr1[0].style.color = "#f00";
+			arr1[1].style.color = "#000";
+			arr1[2].style.color = "#000";
+			arr2[0].style.display = "block";
+			arr2[1].style.display = "none";
+			arr2[2].style.display = "none";
+		};
+		arr1[1].onclick = function () {
+			arr1[0].style.color = "#000";
+			arr1[1].style.color = "#f00";
+			arr1[2].style.color = "#000";
+			arr2[0].style.display = "none";
+			arr2[1].style.display = "block";
+			arr2[2].style.display = "none";
+		};
+		arr1[2].onclick = function () {
+			arr1[0].style.color = "#000";
+			arr1[1].style.color = "#000";
+			arr1[2].style.color = "#f00";
+			arr2[0].style.display = "none";
+			arr2[1].style.display = "none";
+			arr2[2].style.display = "block";
+		};*/
+
+		(function changeTab(tab) {
+            for(var i = 0, len = arr1.length; i < len; i++) {
+                arr1[i].onclick = showTab;
+            }
+        })();
+
+        function showTab() {
+            for(var i = 0, len = arr1.length; i < len; i++) {
+                if(arr1[i] === this) {
+                    arr1[i].className = 'selected';
+                    arr2[i].className = 'show';
+                } else {
+                    arr1[i].className = '';
+                    arr2[i].className = '';
+                }
+            }
+        }
+	</script>
+</body>
+</html>
