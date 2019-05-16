@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>竞标</title>  
+    <style type="text/css">
+    	*{
+            margin: 0;
+            padding: 0;
+            font-family: "微软雅黑";
+        }
+        a{
+            text-decoration: none;
+        }
+        ul, li{
+            list-style: none;
+        }
+        .box{
+            width: 1200px;
+            height: auto;
+            margin: 0 auto;
+        }
+        .clearfloat:after{
+            display:block;
+            clear:both;
+            content:"";
+            visibility:hidden;
+            height:0;
+        }
+        .clearfloat{
+            zoom:1;
+        }
+        .header{
+            padding: 40px 0;
+        }
+        .header h1{
+            display: inline-block;
+            float: left;
+            font-size: 36px;
+            line-height: 36px;
+            color: #000;
+        }
+        .header .header-right{
+            display: block;
+            float: right;
+            font-size: 24px;
+            color: #4c4c4c;
+            line-height: 36px;
+        }
+        .header .header-right .a1, .header .header-right .a2{
+            display: inline-block;
+            float: left;
+            cursor: pointer;
+        }
+        .header .header-right .a1{
+            margin-right: 60px;
+        }
+        .nav{
+            height: 56px;
+        }
+        .nav li{
+            display: inline-block;
+            line-height: 56px;
+            height: 56px;
+            float: left;
+            font-size: 26px;
+            padding: 0 5px;
+            margin: 0 20px;
+            cursor: pointer;
+            position: relative;
+            z-index: 20;
+        }
+        .nav li:hover, .nav2 li:hover{
+            color: #0f91ff;
+        }
+        .nav li span{
+            display: inline-block;
+            position: absolute;
+            width: 100%;
+            height: 4px;
+            background-color: #0f91ff;
+            left: 0;
+            bottom: 0;
+            z-index: 30;
+            display: none;
+        }
+        .nav li:hover span{
+            display: block;
+        }
+        .banner{
+            width: 1300px;
+            height: auto;
+            margin: 0 auto 40px;
+        }
+        .banner img{
+            display: inline-block;
+            width: 100%;
+            height: auto;
+        }
+        .nav2{
+            height: 56px;
+            margin-bottom: 40px;
+        }
+        .nav2 li{
+            display: inline-block;
+            line-height: 56px;
+            height: 56px;
+            float: left;
+            font-size: 26px;
+            margin-right: 100px;
+            cursor: pointer;
+            position: relative;
+            z-index: 20;
+        }
+        .nav2 li a{
+            color: #000;
+        }
+        .nav2 li:hover a{
+            color: #0f91ff;
+        }
+        .nav2 li span{
+            display: inline-block;
+            position: absolute;
+            width: 100%;
+            height: 4px;
+            background-color: #0f91ff;
+            left: 0;
+            bottom: 0;
+            z-index: 30;
+            display: none;
+        }
+        .tab{
+            width: 1300px;
+            height: auto;
+            margin: 0 auto;
+        }
+        .tab li{
+            width: 1300px;
+            height: auto;
+        }
+        .tab li img{
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+    	<div class="header clearfloat">
+    		<h1>浙江省体育公共服务平台</h1>
+	    	<div class="header-right clearfloat">
+	    		<div class="a1">注册</div>
+	    		<div class="a2">登录</div>
+	    	</div>
+    	</div>
+    	<ul class="nav clearfloat">
+	    	<li>首页<span></span>
+		    </li>
+	    	<li>个人用户<span></span></li>
+	    	<li>体育部门<span></span></li>
+	    	<li>社会组织<span></span></li>
+	    	<li>政策新闻<span></span></li>
+	    	<li>数据开发<span></span></li>
+	    </ul>
+	</div>
+    <div class="banner">
+    	<img src="images/bb-header.jpg" width="1600" height="308">
+    </div>
+    <div class="box">
+    	<ul class="nav2">
+    		<li><a href="nav1.html">个人用户</a><span></span></li>
+    		<li><a href="nav2.html">体育部门</a><span></span></li>
+    		<li><a href="nav3.html">社会组织</a><span></span></li>
+    	</ul>
+    </div>
+    <ul class="tab">
+		<li>
+			<img src="images/tab1.jpg" width="1600" height="1020" />
+		</li>
+	</ul>
+</body>
+</html>

@@ -75,6 +75,11 @@ demo72.html             使用匿名函数包装全局变量
 demo73.html             ||
 demo74.html             浏览器对象
 demo75.html             浏览器窗口
+demo76.html             竞标
+demo77.html             竞标首页1
+demo78.html             竞标首页2
+demo79.html             竞标首页3
+demo80.html             竞标首页1-1
 
 
 ================================================
