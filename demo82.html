@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>jquery实现tab栏目切换</title>
+	<style>
+		span{
+			display: inline-block;
+			width: 50px;
+			text-align: center;
+			cursor: pointer;
+		}
+		.selected{
+			color: red;
+		}
+		p{
+			display: none;
+		}
+		.show{
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<div id="tab">
+		<span class="selected">1</span>
+		<span>2</span>
+		<span>3</span>
+	</div>
+	<div id="content">
+		<p class="show">a</p>
+		<p>b</p>
+		<p>c</p>
+	</div>
+	
+	<script src="js/jquery.js"></script>
+	<script type="text/javascript">
+		$(function () {
+			$("#tab span").click(function () {
+				var i = $(this).index();// 下标第一种写法
+	            // var i = $("#tab span").index(this);// 下标第二种写法
+				$(this).addClass("selected").siblings().removeClass("selected");
+				$("#content p").eq(i).show().siblings().hide();
+			});
+		});
+	</script>
+</body>
+</html>
