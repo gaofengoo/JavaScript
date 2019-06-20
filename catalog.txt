@@ -85,6 +85,7 @@ demo82.html             jquery实现tab栏目切换
 demo83.html             0 == undefined
 demo84.html             split
 demo85.html             监听滚动条
+demo86.html             富文本编辑器
 
 ================================================
 
