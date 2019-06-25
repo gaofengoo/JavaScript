@@ -86,6 +86,7 @@ demo83.html             0 == undefined
 demo84.html             split
 demo85.html             监听滚动条
 demo86.html             富文本编辑器
+demo87.html             图片压缩
 
 ================================================
 
