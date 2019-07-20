@@ -88,7 +88,12 @@ demo85.html             监听滚动条
 demo86.html             富文本编辑器
 demo87.html             图片压缩
 demo88.html             表格嵌套
-
+demo89.html             判断当前时间是否在指定时间内
+demo90.html             switch
+demo91.html             sessionStorage的用法
+demo92.html             禁止浏览器页面放大和缩小
+demo93.html             js屏蔽浏览器右键菜单,粘贴,复制,剪切,选中
+demo94.html             css禁止浏览器浏览器选中
 
 ================================================
 
@@ -108,3 +113,8 @@ demo_h5_13.html 		H5多功能手机轮播
 demo_h5_14.html 		简单H5手机轮播
 demo_h5_15.html 		导航滚动侦测
 demo_h5_16.html 		导航选项横向滚动
+
+
+================================================
+
+work.md                 工作文件路径

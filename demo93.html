@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>js屏蔽浏览器右键菜单,粘贴,复制,剪切,选中</title>
+<meta name="description" content="js代码制作屏蔽浏览器右键菜单,屏蔽浏览器粘贴,屏蔽浏览器复制,屏蔽浏览器剪切,屏蔽浏览器选中,不会屏蔽搜索引擎蜘蛛抓取页面,不影响seo优化。可以设置网页内容代码不被用户随意下载等。" />
+</head>
+
+<body>
+
+<script type="text/javascript">
+//屏蔽右键菜单
+// document.oncontextmenu = function (event){
+//     if(window.event){
+//         event = window.event;
+//     }try{
+//         var the = event.srcElement;
+//         if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")){
+//             return false;
+//         }
+//         return true;
+//     }catch (e){
+//         return false; 
+//     } 
+// }
+
+// 屏蔽粘贴
+document.onpaste = function (event){
+    if(window.event){
+        event = window.event;
+    }try{
+        var the = event.srcElement;
+        if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")){
+            return false;
+        }
+        return true;
+    }catch (e){
+        return false;
+    }
+}
+
+// 屏蔽复制
+document.oncopy = function (event){
+    if(window.event){
+        event = window.event;
+    }try{
+        var the = event.srcElement;
+        if(!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")){
+            return false;
+        }
+        return true;
+    }catch (e){
+        return false;
+    }
+}
+
+// 屏蔽剪切
+document.oncut = function (event){
+    if(window.event){
+        event = window.event;
+    }try{
+        var the = event.srcElement;
+        if(!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")){
+            return false;
+        }
+        return true;
+    }catch (e){
+        return false;
+    }
+}
+
+// 屏蔽选中
+document.onselectstart = function (event){
+    if(window.event){
+        event = window.event;
+    }try{
+        var the = event.srcElement;
+        if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")){
+            return false;
+        }
+        return true;
+    } catch (e) {
+        return false;
+    }
+}
+</script>
+
+
+<div style="width:600px;margin:40px auto;text-align:center;border:solid 1px #FFCA52;background:#FFFDD2;height:28px;line-height:28px;font-size:14px;padding:5px 10px;color:#ff0000;font-weight:800;">单页禁用右键菜单、粘贴、复制、剪切、选中操作</div>
+test
+</body>
+</html>

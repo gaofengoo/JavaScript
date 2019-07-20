@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>SessionStorage</title>
+	<script type="text/javascript">
+		window.onload = function () {
+			var msg = document.getElementById("msg");
+			var getData = document.getElementById("getData");
+			var setData = document.getElementById("setData");
+			var removeData = document.getElementById("removeData");
+			var removeDataAll = document.getElementById("removeDataAll");
+
+			// 存入数据
+			setData.onclick = function () {
+				if(msg.value){
+					sessionStorage.setItem("data", msg.value);
+					alert("信息已保存到data字段中");
+				} else {
+					alert("信息不能为空");
+				}
+			};
+
+			// 获取数据
+			getData.onclick = function () {
+				var msg = sessionStorage.getItem("data");
+				if(msg){
+					alert("data字段中的值为：" + msg);
+				} else {
+					alert("data字段无值！");
+				}
+			};
+
+			// 删除数据
+			removeData.onclick=function () {
+				sessionStorage.removeItem("data");
+			};
+
+			// 删除全部数据
+			removeDataAll.onclick=function () {
+				sessionStorage.clear();
+			};
+
+		}
+	</script>
+</head>
+<body>
+	<input id="msg" type="text"/>
+	<input id="setData" type="button" value="保存数据"/>
+	<input id="getData" type="button" value="获取数据"/>
+	<input id="removeData" type="button" value="删除数据"/>
+	<input id="removeDataAll" type="button" value="删除全部数据"/>
+</body>
+</html>
