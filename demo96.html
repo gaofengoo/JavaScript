@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>处理数据为两位小数</title>  
+</head>
+<body>
+    <script type="text/javascript">
+		var a = 96.7;
+    	var b = 0.01;
+    	a = a - b;
+    	a = dealNumberTwoNumber(a);
+    	console.log(a); 
+
+		//处理数据为两位小数
+    	function dealNumberTwoNumber (num) {
+		    var num2 = num.toFixed(3);
+		    return parseFloat(num2.substring(0,num2.lastIndexOf('.')+3));
+		};	       	
+    </script>
+</body>
+</html>

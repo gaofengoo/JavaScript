@@ -93,7 +93,10 @@ demo90.html             switch
 demo91.html             sessionStorage的用法
 demo92.html             禁止浏览器页面放大和缩小
 demo93.html             js屏蔽浏览器右键菜单,粘贴,复制,剪切,选中
-demo94.html             css禁止浏览器浏览器选中
+demo94.html             css禁止浏览器选中
+demo95.html             禁止浏览器输入框选中弹出输入弹框
+demo96.html             处理数据为两位小数
+demo97.html             模态框高度自适应
 
 ================================================
 

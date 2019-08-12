@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>模态框高度自适应</title> 
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body, html{
+            width: 100%;
+            height: 100%;
+        }
+        .box{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            z-index: 10;
+        }
+        #big{
+            width:100%;
+            height:100%;
+            font-size:32px;
+            font-weight:bold;
+            position:absolute;
+            background-color:pink;
+            overflow:hidden;
+            z-index: 20;
+            left: 0;
+            top: 0;
+        }
+        #big > p{
+            position:absolute;
+            width:500px;
+            height:800px;
+            outline: 1px solid;
+            top:0;
+            left:0;
+            right:0;
+            bottom:0;
+            margin:auto;
+            z-index: 30;
+        }
+    </style> 
+</head>
+<body>
+    <div class="box">
+        <div id="big">
+            <p>3333</p>
+        </div>
+    </div>
+</body>
+</html>
