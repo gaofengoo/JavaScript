@@ -97,8 +97,14 @@ demo94.html             css禁止浏览器选中
 demo95.html             禁止浏览器输入框选中弹出输入弹框
 demo96.html             处理数据为两位小数
 demo97.html             模态框高度自适应
+demo98.html             js方式实现手机号码隐藏中间4位
+demo99.html             复选，全选，反选
+demo100.html            获取当天23点59分59秒时间戳
+demo101.html            字符串转二维码
+demo102.html            绑定与解绑enter事件
 
 ================================================
+h5目录
 
 demo_h5_1.html			demo_h5_1
 demo_h5_2.html			本地存储
@@ -117,7 +123,12 @@ demo_h5_14.html 		简单H5手机轮播
 demo_h5_15.html 		导航滚动侦测
 demo_h5_16.html 		导航选项横向滚动
 
-
 ================================================
+md目录
 
 work.md                 工作文件路径
+startMongodb.md         启动mongodb
+test-release.md         测试项目发布
+import-data.md          mongodb导入导出数据文件
+node-version.md         node版本
+item-link.md            项目链接

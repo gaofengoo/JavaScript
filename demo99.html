@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>复选，全选，反选</title>  
+    <script src="js/angular.js"></script>
+</head>
+<body>
+    <ul>
+        <li ng-click="chooseAll()">
+            <img src="images/select_box_on.png" width="16" height="16" ng-show="allChoose" />
+            <img src="images/select_boxB.png" width="16" height="16" ng-show="!allChoose" />
+            <span>全选</span>
+        </li>
+        <li ng-click="chooseSingle(choose)" ng-repeat="choose in chooseArr">
+            <img src="images/select_box_on.png" width="16" height="16" ng-show="choose.isChoose" />
+            <img src="images/select_boxB.png" width="16" height="16" ng-show="!choose.isChoose" />
+            <span ng-bind="choose.name"></span>
+        </li>
+    </ul>
+
+    <script type="text/javascript">
+        var myApp = angular.module('myApp',[]);
+        myApp.controller("MainController",function($scope){
+            // 全选，反选
+            $scope.chooseAll = function () {
+                console.log("333");
+                if ($scope.allChoose == true) {
+                    $scope.allChoose = false;
+                    $scope.chooseArr.forEach(function (value) {
+                        value.isChoose = false;
+                    });
+                } else {
+                    $scope.allChoose = true;
+                    $scope.chooseArr.forEach(function (value) {
+                        value.isChoose = true;
+                    });
+                }
+            };
+
+            // 复选
+            $scope.chooseSingle = function (choose) {
+                choose.isChoose == true ? choose.isChoose = false : choose.isChoose = true;
+            };
+
+            // 初始化选择项
+            $scope.chooseArr = [
+                {
+                    isChoose:false,
+                    name:"1"
+                },{
+                    isChoose:false,
+                    name:"2"
+                },{
+                    isChoose:false,
+                    name:"3"
+                },{
+                    isChoose:false,
+                    name:"4"
+                },{
+                    isChoose:false,
+                    name:"5"
+                }
+            ];
+
+            // 初始化全选
+            $scope.allChoose = false;
+
+
+        });
+    </script>
+</body>
+</html>

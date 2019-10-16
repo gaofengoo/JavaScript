@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js方式实现手机号码隐藏中间4位</title>  
+</head>
+<body>
+    <script type="text/javascript">
+        // 使用正则
+        function geTel(tel){
+            var reg = /^(\d{3})\d{4}(\d{4})$/;  
+            return tel.replace(reg, "$1****$2");
+        }
+        //测试
+        var tel_1 = "17326453333"; 
+        console.log(geTel(tel_1));//173****3333
+
+        // 使用字符串截取
+        function geTel(tel){
+            return tel.substring(0, 3)+"****"+tel.substr(tel.length-4);
+        }
+        //测试
+        var tel_2 = "17326453333"; 
+        console.log(geTel(tel_2));//173****3333
+    </script>
+</body>
+</html>

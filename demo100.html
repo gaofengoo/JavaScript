@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>获取当天23点59分59秒时间戳</title>  
+</head>
+<body>
+    <script type="text/javascript">
+        var nowTime = new Date(new Date(new Date().toLocaleDateString()).getTime()+24*60*60*1000-1);
+    </script>
+</body>
+</html>
