@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM</title>  
+</head>
+<body>
+    <div id="node1">
+        <p>NIKE</p>
+        <span>Hello</span>
+    </div>
+
+    <script type="text/javascript">
+        var node1 = document.getElementById("node1");
+
+        if (node1) {
+            var parentNodeName = node1.parentNode.nodeName;
+            var childNode = node1.childNodes;
+            console.log(parentNodeName, childNode);
+        }
+    </script>
+</body>
+</html>

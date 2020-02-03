@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo1</title>  
+</head>
+<body>
+    <script type="text/javascript">
+        //根据传入日期返回展示日期
+        function getShowDate(date, value) {
+            var date = new Date(date);
+            var year = date.getFullYear();
+            var month = date.getMonth() + 1 > 9 ? date.getMonth() + 1 : '0' + (date.getMonth() + 1);
+            var day = date.getDate() > 9 ? date.getDate() : '0' + date.getDate();
+            var hour = date.getHours() > 9 ? date.getHours() : '0' + date.getHours();
+            var minute = date.getMinutes() > 9 ? date.getMinutes() : '0' + date.getMinutes();
+            var second = date.getSeconds() > 9 ? date.getSeconds() : '0' + date.getSeconds();
+
+            switch (value) {
+                case 'min':
+                    return year + '-' + month + '-' + day + ' ' + hour + ':' + minute;
+                    break;
+                case 'second':
+                    return year + '-' + month + '-' + day + ' ' + hour + ':' + minute + ':' + second;
+                    break;
+                case 'china':
+                    return year + '年' + month + '月' + day + '日';
+                    break;
+                case 'en':
+                    return year + '/' + month + '/' + day;
+                    break;
+                default:
+                    return year + '-' + month + '-' + day;
+                    break;
+            };
+        }
+
+        console.log(getShowDate(new Date(1546390861000), "second"));
+    </script>
+</body>
+</html>

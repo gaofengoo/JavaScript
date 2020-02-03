@@ -3,6 +3,9 @@
 ##### 一，数据库导入
 1. ./mongorestore -d (导入数据库名称) --drop --dir (现在存放的数据的文件路径)
 2. ./mongorestore -d field（需要导入数据库名称）-dev --drop --dir dbdirectory（存放数据的位置）
+3. 例子
+- 命令行进入到mongodb的bin目录下
+- ./mongorestore -d train-hl --drop --dir /usr/local/mongodb/import/train-hl (demo)
 
 ##### 二，数据库导出
 1. 导出数据库操作

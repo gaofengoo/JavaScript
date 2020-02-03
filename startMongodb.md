@@ -1,6 +1,7 @@
 ## 启动mongodb
 cd /usr/local/mongodb/bin 
 bin> ./mongod -dbpath ../data -logpath ../logs/log.log -logappend -bind_ip 127.0.0.1  -auth -fork
+bin> ./mongod -dbpath /usr/local/mongodb/data -logpath /usr/local/mongodb/data/log/mongodb.log -logappend -fork (demo)
 
 - -dbpath 数据存放地址
 - -logpath 日志存放地址

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>appendChild</title>  
+</head>
+<body>
+	<div id="target">
+		<p></p>
+		<p></p>
+		<p></p>
+	</div>
+
+    <script type="text/javascript">
+    	var target = document.getElementById('target');
+    	var two = document.getElementsByTagName('p')[1];
+    	var txt = document.createTextNode('Hello World');
+    	var parp = document.createElement('div');
+    	parp.appendChild(txt);
+		target.insertBefore(parp, two);
+    </script>
+</body>
+</html>
