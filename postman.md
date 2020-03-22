@@ -5,8 +5,7 @@
 
 2.标准智慧场馆/运动卡消费,模拟手环进出闸机
 - GET
-- localhost:9000/api/accessctr/card?Card=30152&Reader=0&ID=x6tA4AVF00&Serial=2020
-- Card #手环号
+- localhost:9000/api/accessctr/card?Card=30152&Reader=0&ID=x6tA4AVF00
+- Card #手环内码
 - Reader #为0,表示进闸机.为1,表示出闸机
-- ID #场馆的venueNo
-- Serial #闸机编号
+- ID #闸机编号

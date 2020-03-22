@@ -8,9 +8,9 @@
 ##### Cyberduck
 - 账号：root
 - 密码：Penguin123
-- 测试中台：test2
-- 培训：test3
-- 场馆：test4
+- 场馆：hula-test1
+- 测试中台：hula-test2
+- 培训：hula-test3-train
 - 1的所有都是test.hulasports.com+端口号
 - 3的测试地址是 testtrain.hulasports.com
 
@@ -18,8 +18,9 @@
 1.测试环境1-开发者自测
     IP:118.31.247.210
     服务器连接密码:Penguin123
-    域名:照旧
+    域名:test.hulasports.com
     说明:开发人员自己自测服务器，可连接上面数据库
+    小程序:呼啦自测
 3.测试环境2-测试人员hotfix
     IP:116.62.108.177
     服务器连接密码:Penguin123
@@ -30,6 +31,9 @@
     服务器连接密码:Penguin123
     域名:dev.hulasports.com
     说明:测试人员测试服务器，开发人员拥有发布权限（对应git上的dev线），不可连接上面的数据
+    小程序:大景
+- 协议：SFTP(SSH文件传输协议)
+- 端口：22
 
 ##### 关于git说明
     1.需求线改动从dev拉取，自测完毕后合并到dev，然后dev发布到dev服务器给测试人员测试

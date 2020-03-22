@@ -135,7 +135,7 @@ md目录
 
 work.md                 工作文件路径
 startMongodb.md         启动mongodb
-test-release.md         测试项目发布
+test-release.md         标准版测试发布（pc + 小程序）
 import-data.md          mongodb导入导出数据文件
 node-version.md         node版本
 item-link.md            项目链接
@@ -152,3 +152,4 @@ item-event.md           项目修改事件
 grunt.md                运行项目
 google.md               谷歌
 itemPassword.md         项目密码
+gitVisual.md            git可视化工具

@@ -31,5 +31,11 @@ hotfix版本发布
     2. hotfix合并至dev
     3. dev重新发布
 
+##### 本地开放微信支付
+1. 进入server/tool/config.js 
+2. 把标准版参数，还原前6行的注释
+
+##### dev数据
+- uri: 'mongodb://dbreader:dbreader@120.27.230.67/field?authSource=admin'
 
 
