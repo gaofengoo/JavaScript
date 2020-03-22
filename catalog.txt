@@ -151,5 +151,5 @@ git-command.md          git操作命令
 item-event.md           项目修改事件
 grunt.md                运行项目
 google.md               谷歌
-itemPassword.md         项目密码
+itemPassword.md         项目密码(新)
 gitVisual.md            git可视化工具
