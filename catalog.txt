@@ -153,3 +153,4 @@ grunt.md                运行项目
 google.md               谷歌
 itemPassword.md         项目密码
 gitVisual.md            git可视化工具
+weixinSmallProgram.md   微信小程序
