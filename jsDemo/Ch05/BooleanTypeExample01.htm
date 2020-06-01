@@ -2,6 +2,8 @@
 <html>
 <head>
     <title>Boolean Type Example</title>
+</head>
+<body>
     <script type="text/javascript">
     
         var falseObject = new Boolean(false);
@@ -11,6 +13,8 @@
         var falseValue = false;
         result = falseValue && true;
         alert(result);  //false
+        var x1 = typeof falseObject;
+        var x2 = typeof falseValue;
         
         alert(typeof falseObject);   //object
         alert(typeof falseValue);    //boolean
@@ -18,8 +22,5 @@
         alert(falseValue instanceof Boolean);   //false
         
     </script>
-</head>
-<body>
-
 </body>
 </html>
