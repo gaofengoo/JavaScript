@@ -1,6 +1,7 @@
 1.查看本机ip 
 - ifconfig | grep "inet" #命令
 - 10.0.111.9 #本机ip
+- ipconfig/all
 2.查看测试域名ip 
 - ping xxx #windows命令行，xxx为测试域名
 3,全局搜索网络实用工具
