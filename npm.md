@@ -18,3 +18,6 @@ npm version # 查看模块版本
 4,更新版本
 最新版本：sudo npm -g install npm@latest
 指定版本：sudo npm -g install npm@6.0.0
+
+5,重新安装cnpm
+npm install -g cnpm --registry=https://registry.npm.taobao.org
