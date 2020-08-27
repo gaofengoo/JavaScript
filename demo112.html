@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>translate</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.all{
+			width: 100%;
+			height: 200px;
+			max-width: 100%;
+			overflow-x: hidden;
+		}
+		.clear:after{
+		    content: '';
+		    height: 0;
+		    line-height: 0;
+		    display: block;
+		    visibility: hidden;
+		    clear: both;
+		}
+		#content{
+			width: 200px;
+			height: 200px;
+			background: #f00;
+			transition: .5s;
+			float: right;
+		}
+		#content2{
+			width: calc(100% - 200px);
+			transition: transform .5s, width .5s, margin-left .5s;
+			background: #0f0;
+			float: left;
+			height: 200px;
+			text-align: right;
+		}
+	</style>
+	<script>
+		var state = true;
+		function contentClick () {
+			var content = document.getElementById('content');
+			var content2 = document.getElementById('content2');
+			state == true ? state = false : state = true;
+			if (!state) {
+				// content.style.transform = 'translateX(200px)';
+				content.style.marginRight = '-200px';
+				// content2.style.marginRight = '200px';
+				content2.style.width = '100%';
+			} else {
+				// content.style.transform = 'translateX(0)';
+				content.style.marginRight = '0';
+				// content2.style.marginRight = '0';
+				content2.style.width = 'calc(100% - 200px)';
+			}
+		}
+	</script>
+</head>
+<body>
+	<button onclick="contentClick()">切换</button>
+	<div class="clear all">
+		<div id="content2"><span>green</span></div>
+		<div id="content">red</div>
+	</div>
+</body>
+</html>
