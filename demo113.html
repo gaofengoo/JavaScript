@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimal-ui, minimum-scale=1.0, maximum-scale=1.0">
+    <title>type=range</title>
+</head>
+<style type="text/css">
+.center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.an_speed {
+    width: 56%;
+}
+
+#value1 {
+    text-align: center;
+}
+
+input[type=range] {
+    margin-top: 8px;
+    outline: none;
+    -webkit-appearance: none;
+    /*清除系统默认样式*/
+    width: 100% !important;
+    background: -webkit-linear-gradient(#61bd12, #61bd12) no-repeat, #ddd;
+    background-size: 30% 100%;
+    /*设置左右宽度比例*/
+    height: 3px;
+    /*横条的高度*/
+}
+
+/*拖动块的样式*/
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    /*清除系统默认样式*/
+    height: 16px;
+    /*拖动块高度*/
+    width: 16px;
+    /*拖动块宽度*/
+    background: #fff;
+    /*拖动块背景*/
+    border-radius: 50%;
+    /*外观设置为圆形*/
+    border: solid 1px #ddd;
+    /*设置边框*/
+}
+</style>
+
+<body>
+    <div class="an_speed">
+        <div class="center">
+            <span>1</span>
+            <input type="range" name="range_speed" id="range_speed" min="0" max="10" value="5" oninput="changeSpeed()" />
+            <span>10</span>
+        </div>
+        <h2 id="value1">5</h2>
+    </div>
+</body>
+<script src="js/jquery.js"></script>
+<script type="text/javascript">
+changeSpeed();
+
+function changeSpeed() {
+    var value = $('#range_speed').val();
+    var valStr = (value * 10) + "% 100%";
+    $('#value1').html(value);
+    $('#range_speed').css({
+        "background-size": valStr
+    })
+};
+</script>
+
+</html>
