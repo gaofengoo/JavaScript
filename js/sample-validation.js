@@ -5,7 +5,11 @@
 * 3.break和continue
 * 4.变量
 * 5.数据类型
+* 6.严格模式
 */
+
+
+'use strict';
 
 
 // 1.while循环和do while循环
@@ -29,6 +33,7 @@ console.log(y);
 
 // 2.for in
 var output = '';
+var key = undefined;
 var person = {
 	name: 'gaofeng',
 	age: '27',
@@ -69,3 +74,48 @@ var changeNumber = 5;
 * 值类型（基本类型）：字符串（String），数字（Number），布尔（Boolean），空对象的引用（Null），未定义（Undefined），Symbol
 * 引用数据类型：对象（Object），数组（Array），函数（Function）
 */
+
+
+/*
+* 6.严格模式
+* 6.1不允许使用未申明的变量
+* 6.2不允许删除变量，对象，函数
+* 6.3不允许变量重名
+* 6.4不允许使用八进制
+* 6.5不允许使用转义字符
+* 6.6不允许对只读属性赋值
+*/
+// 6.1不允许使用未声明的变量
+// number1 = 3.14;
+// object1 = {
+// 	name: 'jack',
+// 	age: 56
+// };
+// console.log(number1, object1);
+
+// 6.2不允许删除变量，对象，函数
+var number2 = 2;
+function hello () {
+
+}
+// delete number2;
+// delete hello;
+
+// 6.3不允许变量重名
+// function hello2 (p1, p1) {
+
+// }
+
+// 6.4不允许使用八进制
+// var number3 = 010;
+
+// 6.5不允许使用转义字符
+var string1 = '\'';
+console.log(string1);
+
+// 6.6不允许对只读属性赋值
+var object2 = {};
+// Object.defineProperty(object2, 'x', {value: 0, });
+
+
+
