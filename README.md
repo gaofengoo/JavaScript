@@ -113,6 +113,7 @@
 | demo110.html | appendChild |
 | demo111.html | ios惯性滚动 |
 | demo112.html | translate |
+| demo113.html | js示例验证 |
 
 ---
 
