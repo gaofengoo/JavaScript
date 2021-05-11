@@ -84,7 +84,14 @@ var changeNumber = 5;
 * 6.4不允许使用八进制
 * 6.5不允许使用转义字符
 * 6.6不允许对只读属性赋值
+* 6.7不允许对一个使用getter方法读取的属性赋值
+* 6.8不允许删除一个不允许删除的属性
+* 6.9变量名不能使用‘eval’或‘arguments’字符串
+* 6.10不允许使用下面这种语句
+* 6.11在作用域eval()创建的变量不能被调用
+* 6.12禁止this关键字指向全局对象
 */
+
 // 6.1不允许使用未声明的变量
 // number1 = 3.14;
 // object1 = {
@@ -115,7 +122,44 @@ console.log(string1);
 
 // 6.6不允许对只读属性赋值
 var object2 = {};
-// Object.defineProperty(object2, 'x', {value: 0, });
+Object.defineProperty(object2, 'x', {value: 0, writeAble: false});
+// object2.x = 'hello';
+
+// 6.7不允许对一个使用getter方法读取的属性赋值
+var object3 = {
+	get x() {
+		return 0;
+	}
+};
+// object3.x = '';
+
+// 6.8不允许删除一个不允许删除的属性
+// delete Object.prototype;
+
+// 6.9变量名不能使用‘eval’或‘arguments’字符串
+// var eval = 3.14;
+// var arguments = 2;
+
+// 6.10不允许使用下面这种语句
+// with (Math) {
+// 	x = cors(2);
+// }
+
+// 6.11在作用域eval()创建的变量不能被调用
+eval('var evalDemo = 2');
+// console.log(evalDemo);
+
+// 6.12禁止this关键字指向全局对象
+function fun1 () {
+	this.name = 'hello';
+}
+// fun1();
+
+
+
+
+
+
 
 
 
