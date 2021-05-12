@@ -6,6 +6,8 @@
 * 4.变量
 * 5.数据类型
 * 6.严格模式
+* 7.作用域
+* 8.try catch, throw, finally
 */
 
 
@@ -154,6 +156,29 @@ function fun1 () {
 	this.name = 'hello';
 }
 // fun1();
+
+
+// 7.作用域
+myFunciton();
+// console.log(carName);
+function myFunciton () {
+	// carName = 'jack';
+}
+
+// 8.try catch, throw, finally
+try {
+	var str1 = '';
+	if (str1 == '') {
+		throw '空字符串';
+	}
+	// addAlert('hello');
+} catch (err) {
+	console.log(err);
+} finally {
+	console.log('end');
+}
+
+
 
 
 
