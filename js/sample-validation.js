@@ -9,6 +9,8 @@
 * 7.作用域
 * 8.try catch, throw, finally
 * 9.js声明提升
+* 10.闭包
+* 11.继承
 */
 
 
@@ -70,6 +72,14 @@ console.log(continueWords);
 // 4.变量
 console.log(changeNumber);
 var changeNumber = 5;
+var changeNumber3 = 3;
+testChange();
+function testChange () {
+    var changeNumber3 = 33;
+    // changeNumber2 = 2;
+    console.log(this, changeNumber3);
+}
+console.log(changeNumber3);
 
 
 // 5.数据类型
@@ -188,10 +198,31 @@ var name2;
 console.log(name2);
 name2 = 'rock';
 
-console.log(helloWorld());
+newFun2 = function () {
+    return 'new function!'
+}
+console.log(helloWorld(), newFun2());
 function helloWorld () {
     return 'hello world!';
 }
+var newFun2;
+
+
+// 10.闭包（有权访问另一个函数作用域中变量的函数。闭包会携带包含它的函数的作用域，所以比其他函数会占用更多的内存，过度使用闭包会导致内存占用过多）
+var add = (function () {
+    var count = 0;
+    return function () {
+        return count += 1;
+    }
+})();
+
+add();
+add();
+console.log(add());
+
+
+// 11.继承
+
 
 
 
