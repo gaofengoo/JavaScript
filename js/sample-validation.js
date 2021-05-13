@@ -8,6 +8,7 @@
 * 6.严格模式
 * 7.作用域
 * 8.try catch, throw, finally
+* 9.js声明提升
 */
 
 
@@ -20,14 +21,14 @@ var b = 0;
 var x = '';
 var y = '';
 while (a < 5) {
-	x = x + 'The number a is ' + a + ';';
-	a++;
+    x = x + 'The number a is ' + a + ';';
+    a++;
 }
 console.log(x);
 
 do {
-	y = y + 'The number b is ' + b + ';';
-	b++;
+    y = y + 'The number b is ' + b + ';';
+    b++;
 }
 while (b < 5);
 console.log(y);
@@ -37,12 +38,12 @@ console.log(y);
 var output = '';
 var key = undefined;
 var person = {
-	name: 'gaofeng',
-	age: '27',
-	height: 180
+    name: 'gaofeng',
+    age: '27',
+    height: 180
 };
 for (key in person) {
-	output += ' ' + key;
+    output += ' ' + key;
 }
 console.log(output);
 
@@ -51,16 +52,16 @@ console.log(output);
 var breakWords = '';
 var continueWords = '';
 for (var i = 0; i < 10; i++) {
-	if (i == 3) {
-		break;
-	}
-	breakWords += 'The breakWords is ' + i + ';';
+    if (i == 3) {
+        break;
+    }
+    breakWords += 'The breakWords is ' + i + ';';
 }
 for (var j = 0; j < 10; j++) {
-	if (j == 3) {
-		continue;
-	}
-	continueWords += 'The continueWords is ' + j + ';';
+    if (j == 3) {
+        continue;
+    }
+    continueWords += 'The continueWords is ' + j + ';';
 }
 console.log(breakWords);
 console.log(continueWords);
@@ -97,8 +98,8 @@ var changeNumber = 5;
 // 6.1不允许使用未声明的变量
 // number1 = 3.14;
 // object1 = {
-// 	name: 'jack',
-// 	age: 56
+//  name: 'jack',
+//  age: 56
 // };
 // console.log(number1, object1);
 
@@ -129,9 +130,9 @@ Object.defineProperty(object2, 'x', {value: 0, writeAble: false});
 
 // 6.7不允许对一个使用getter方法读取的属性赋值
 var object3 = {
-	get x() {
-		return 0;
-	}
+    get x() {
+        return 0;
+    }
 };
 // object3.x = '';
 
@@ -144,7 +145,7 @@ var object3 = {
 
 // 6.10不允许使用下面这种语句
 // with (Math) {
-// 	x = cors(2);
+//  x = cors(2);
 // }
 
 // 6.11在作用域eval()创建的变量不能被调用
@@ -153,7 +154,7 @@ eval('var evalDemo = 2');
 
 // 6.12禁止this关键字指向全局对象
 function fun1 () {
-	this.name = 'hello';
+    this.name = 'hello';
 }
 // fun1();
 
@@ -162,21 +163,38 @@ function fun1 () {
 myFunciton();
 // console.log(carName);
 function myFunciton () {
-	// carName = 'jack';
+    // carName = 'jack';
 }
 
 // 8.try catch, throw, finally
 try {
-	var str1 = '';
-	if (str1 == '') {
-		throw '空字符串';
-	}
-	// addAlert('hello');
+    var str1 = '';
+    if (str1 == '') {
+        throw '空字符串';
+    }
+    // addAlert('hello');
 } catch (err) {
-	console.log(err);
+    console.log(err);
 } finally {
-	console.log('end');
+    console.log('end');
 }
+
+// 9.js声明提升
+name1 = 'jack';
+console.log(name1);
+var name1;
+
+var name2;
+console.log(name2);
+name2 = 'rock';
+
+console.log(helloWorld());
+function helloWorld () {
+    return 'hello world!';
+}
+
+
+
 
 
 
