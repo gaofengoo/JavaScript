@@ -10,7 +10,7 @@
 * 8.try catch, throw, finally
 * 9.js声明提升
 * 10.闭包
-* 11.继承
+* 11.改变this指向
 */
 
 
@@ -221,14 +221,67 @@ add();
 console.log(add());
 
 
-// 11.继承
+/* 
+* 11.改变this指向
+* 11.1this的指向（总是指向当前函数所在的对象）
+* 11.1.1指向window
+* 11.1.2在函数内未声明的变量，指向window
+* 11.2改变this的指向
+*/
 
+// 11.1.1指向window
+var custom1 = 1;
+console.log(this.custom1);
 
+// 11.1.2在函数内未声明的变量，指向window
+// var custom2 = 2;
+function customFun () {
+	// custom2 = 2;
+	// console.log(this.custom2);
+}
+customFun();
 
+/* 
+* 11.2改变this的指向
+* 11.2.1call
+* 11.2.2apply
+* 11.2.3bind
+*/
 
+// 11.2.1call
+function fn1 (name) {
+    this.name = name;
+    this.fn1 = function () {
+        console.log(this.name);
+    }
+};
+var obj1 = {};
+fn1.call(obj1, 'callChange');
+console.log(obj1.name);
+obj1.fn1();
 
+// 11.2.2apply
+function fn2 (name, age) {
+    this.name = name;
+    this.age = age;
+    this.fn3 = function () {
+        console.log(this.name);
+    }
+};
+var obj2 = {};
+fn2.apply(obj2, ['applyChange', 18]);
+console.log(obj2.age);
+obj2.fn3();
 
-
+// 11.2.3bind
+function fn4 () {
+    console.log(this.name);
+};
+var obj3 = {
+    name: 'bindChange'
+};
+var b = fn4.bind(obj3);
+b();
 
 
 
