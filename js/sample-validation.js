@@ -11,6 +11,7 @@
 * 9.js声明提升
 * 10.闭包
 * 11.改变this指向
+* 12.js版本
 */
 
 
@@ -282,6 +283,90 @@ var obj3 = {
 };
 var b = fn4.bind(obj3);
 b();
+
+
+/*
+* 12.js版本（从 2015 年起，ECMAScript 按年命名ECMAScript 2015）
+* 
+* 1.ECMAScript 1 (1997) 第一版
+* 2.ECMAScript 2 (1998) 只改变编辑方式
+* 3.ECMAScript 3 (1999) 添加了正则表达式, 添加了 try/catch。
+* 4.ECMAScript 4 从未发布过
+* 
+* 5.ECMAScript 5 (2009) 
+* 添加了“严格模式”。
+* 添加了 JSON 支持。
+* 添加了 String.trim()。
+* 添加了 Array.isArray()。
+* 添加了数组迭代方法。
+*
+* 5.1 ECMAScript 5.1 (2011) 编辑改变
+*
+* 6.ECMAScript 2015 (ES6)
+* 添加了默认参数值
+* 添加了 Array.find()
+* 添加了 Array.findIndex()
+* Let与Const
+* 类
+* 模块化
+* 箭头函数
+* 函数参数默认值
+* 模板字符串
+* 解构赋值
+* 延展操作符
+* 对象属性简写
+* Promise
+*
+* 7.ECMAScript 2016 
+* 添加了指数运算符（**）
+* 添加了 Array.prototype.includes
+* 数组includes()方法，用来判断一个数组是否包含一个指定的值，根据情况，如果包含则返回true，否则
+* 返回false。
+* a ** b指数运算符，它与 Math.pow(a, b)相同
+*
+* 8.ECMAScript 2017
+* 添加了字符串填充
+* 添加了新的 Object 属性
+* 添加了异步功能
+* 添加了共享内存
+* async/await
+* Object.values()
+* Object.entries()
+* String padding: padStart()和padEnd()，填充字符串达到当前长度
+* 函数参数列表结尾允许逗号
+* Object.getOwnPropertyDescriptors()
+* ShareArrayBuffer和Atomics对象，用于从共享内存位置读取和写入
+* 
+* 9.ECMAScript 2018 
+* 添加了 rest / spread 属性
+* 增加 RegExp
+* 异步迭代
+* Promise.finally()
+* Rest/Spread 属性
+* 正则表达式命名捕获组（Regular Expression Named Capture Groups）
+* 正则表达式反向断言（lookbehind）
+* 正则表达式dotAll模式
+* 正则表达式 Unicode 转义
+* 非转义序列的模板字符串
+* 
+* 10.ECMAScript 2019 
+* 行分隔符（U + 2028）和段分隔符（U + 2029）符号现在允许在字符串文字中，与JSON匹配
+* 更加友好的 JSON.stringify
+* 新增了Array的flat()方法和flatMap()方法
+* 新增了String的trimStart()方法和trimEnd()方法
+* Object.fromEntries()
+* Symbol.prototype.description
+* String.prototype.matchAll
+* Function.prototype.toString()现在返回精确字符，包括空格和注释
+* 简化try {} catch {},修改 catch 绑定
+* 新的基本数据类型BigInt
+* globalThis
+* import()
+* Legacy RegEx
+* 私有的实例方法和访问器
+*
+* 11.ECMAScript 2020 
+*/
 
 
 
