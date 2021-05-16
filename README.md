@@ -66,6 +66,7 @@
 | demo112.html | translate |
 | demo113.html | 自定义滑块 |
 | demo114.html | js示例验证 |
+| demo115.html | js经典实例 |
 
 ---
 
