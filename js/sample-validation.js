@@ -25,7 +25,7 @@ var x = '';
 var y = '';
 while (a < 5) {
     x = x + 'The number a is ' + a + ';';
-    a++;
+    a++; 
 }
 console.log(x);
 

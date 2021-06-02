@@ -11,3 +11,4 @@ window.onload = function(){
 	var stringList = "a,b,c,d";
 	console.log(stringList.split(",",3));
 }
+
