@@ -12,6 +12,8 @@
 * 10.闭包
 * 11.改变this指向
 * 12.js版本
+* 13.原型修改、重写
+* 14.连等赋值
 */
 
 
@@ -367,3 +369,30 @@ b();
 *
 * 11.ECMAScript 2020 
 */
+
+// 13.原型修改、重写
+function Person (name) {
+    this.name = name;
+}
+// 修改原型
+Person.prototype.getName = function () {}
+var p = new Person('hello');
+console.log(p.__proto__ === Person.prototype);
+console.log(p.__proto__ === p.constructor.prototype);
+// 重写原型
+Person.prototype = {
+    getName: function () {}
+}
+var p = new Person('hello');
+p.constructor = Person;
+console.log(p.__proto__ === Person.prototype);
+console.log(p.__proto__ === p.constructor.prototype);
+
+
+// 14.连等赋值
+var a = {
+    n: 1
+};
+var b = a;
+a.x = a = {n: 2};
+console.log(a, b);
