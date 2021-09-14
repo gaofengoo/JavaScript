@@ -3,6 +3,6 @@ function sayScript () {
 }
 
 let script = document.createElement('script');
-script.src = 'js/json.js';
+script.src = 'js/jquery.js';
 script.async = false;
 document.head.appendChild(script);
