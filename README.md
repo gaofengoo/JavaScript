@@ -68,6 +68,7 @@
 | demo114.html | js示例验证 |
 | demo115.html | js经典实例 |
 | demo116.html | 数组随机排序 |
+| demo117.html | JavaScript高级程序设计 | 
 
 ---
 
