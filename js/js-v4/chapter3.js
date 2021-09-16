@@ -39,8 +39,29 @@ console.log(s2, s3);
 
 console.log(typeof NaN);
 
+let floatNum1 = 1.;
+let floatNum2 = 10.0;
+console.log(floatNum1, floatNum2);
 
+console.log(Number({name: 1}));
 
+// console.log(undefined.toString());
 
+let mySymbol1 = Symbol();
+let mySymbol2 = Symbol('foo');
+console.log(mySymbol1, mySymbol2);
 
+let sy1 = Symbol('y1'),
+	sy2 = Symbol('y2'),
+	sy3 = Symbol('y3'),
+	sy4 = Symbol('y4');
+let o = {
+	[sy1]: 'y1 value'
+};
 
+Object.defineProperty(o, sy2, {value: 'y2 value'});
+Object.defineProperties(o, {
+	[sy3]: {value: 'y3 value'},
+	[sy4]: {value: 'y4 value'}
+});
+console.log(o);
