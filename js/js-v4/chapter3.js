@@ -65,3 +65,45 @@ Object.defineProperties(o, {
 	[sy4]: {value: 'y4 value'}
 });
 console.log(o);
+
+function Foo () {}
+let f = new Foo();
+console.log(Foo[Symbol.hasInstance](f));
+
+class Bar {}
+let b = new Bar();
+console.log(Bar[Symbol.hasInstance](b));
+console.log(typeof Bar);  // 'function'
+
+class Bar2 {}
+class Baz extends Bar2 {
+	static [Symbol.hasInstance] () {
+		return false; // 可以在继承的类别上通过静态方法重新定义这个函数
+	}
+}
+
+let b2 = new Baz();
+console.log(Bar2[Symbol.hasInstance](b2));
+console.log(b2 instanceof Bar2);
+console.log(Baz[Symbol.hasInstance](b2));
+console.log(b2 instanceof Baz);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
