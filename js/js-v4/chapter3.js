@@ -88,9 +88,14 @@ console.log(b2 instanceof Bar2);
 console.log(Baz[Symbol.hasInstance](b2));
 console.log(b2 instanceof Baz);
 
-
-
-
+let countNum = 0;
+for (let i = 1; i < 10; i++) {
+	if (i % 5 == 0) {
+		break;
+	}
+	countNum++;
+}
+console.log(countNum);
 
 
 
