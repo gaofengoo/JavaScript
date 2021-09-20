@@ -20,8 +20,9 @@ if (true) {
 }
 console.log(age);
 
-// let a = 2;
-let a = 1;
+let a = 2;
+a = [];
+console.log(a);
 
 const obj = {
 	age: 22
